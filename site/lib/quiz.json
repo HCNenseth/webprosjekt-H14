@@ -1,0 +1,122 @@
+{ "categories" : [
+    { "Hest" : {
+        "levels" : {
+            "easy" : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ],
+            "medium"  : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ],
+            "hard" : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ]
+        }
+    }},
+    { "Hund" : {
+        "levels" : {
+            "easy" : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ],
+            "medium"  : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ],
+            "hard" : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ]
+        }
+    }},
+    { "Katt" : {
+        "levels" : {
+            "easy" : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ],
+            "medium"  : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ],
+            "hard" : [
+                {"question" : "Question text",
+                 "alternatives" : [
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 1"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 2"},
+                    {"key": "alternativekey",
+                     "alternative": "Alternative text 3"}
+                 ]
+                }
+            ]
+        }
+    }}
+]}
