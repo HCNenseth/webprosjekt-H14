@@ -7,21 +7,16 @@
         <link rel="stylesheet" href="static/css/mobile.css" title="main style">
     </head>
     <body>
-        <form name="quizform">
+        <form name="quizform" id="quizform">
             <fieldset>
                 <legend>Quiz</legend>
-                <p>
-                    <ul id="quizcategories"></ul>
-                </p>
-                <p>
-                    <ul id="quizlevels"></ul>
-                </p>
-                <p>
-                    <ul id="quizquestions"></ul>
-                </p>
+                <ul id="quizcategories"></ul>
+                <ul id="quizlevels"></ul>
+                <ul id="quizquestions"></ul>
             </fieldset>
             <input type="submit">
         </form>
+        <div id="result"></div>
         <script type="text/javascript" src="static/js/quiz.js"></script>
         <script type="text/javascript" src="static/js/generic.js"></script>
     </body>
