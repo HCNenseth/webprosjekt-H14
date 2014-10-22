@@ -39,6 +39,21 @@ var quiz = {
     buildIdObj: function(cat, level, question, answer) {
         return '['+cat+', "'+level+'", '+question+', '+answer+']';
     },
+    shuffle: function(list) {
+        /* Fisher-Yates shuffle */
+        var c = list.length, tmp, idx;
+
+        while (c > 0) {
+            idx = Math.floor(Math.random() * c--);
+
+            /* swap */
+            tmp = list[c];
+            list[c] = list[idx];
+            list[idx] = tmp;
+        }
+
+        return list;
+    },
     isCorrect: function(obj) {
         var cat = obj[0];
         var level = obj[1];
@@ -74,6 +89,8 @@ var quiz = {
         question.appendChild(document.createTextNode(obj.question));
 
         var groupId = this.buildGroupObj(cat, level, qID);
+        /* shuffle alternatives */
+        obj.alternatives = this.shuffle(obj.alternatives);
         for (var i = 0; i < obj.alternatives.length; i++) {
             var li = document.createElement("li");
             var label = document.createElement("label");
@@ -118,6 +135,8 @@ var quiz = {
     loadQuestions: function(cat, level) {
         for (var key in lib.categories[cat]) {
             var questions = lib.categories[cat][key][levels][level];
+            /* shuffle questions */
+            questions = this.shuffle(questions);
             for (var i = 0; i < questions.length; i++) {
                 this.formquestions.appendChild(this.questionGen(questions[i],
                                                                 cat,
