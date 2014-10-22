@@ -4,31 +4,31 @@
             "easy" : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }
@@ -36,31 +36,31 @@
             "medium"  : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }
@@ -68,31 +68,31 @@
             "hard" : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }
@@ -104,31 +104,31 @@
             "easy" : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }
@@ -136,31 +136,31 @@
             "medium"  : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }
@@ -168,31 +168,31 @@
             "hard" : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }
@@ -204,31 +204,31 @@
             "easy" : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }
@@ -236,31 +236,31 @@
             "medium"  : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }
@@ -268,31 +268,31 @@
             "hard" : [
                 {"question" : "Question text 1",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 2",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 },
                 {"question" : "Question text 3",
                  "alternatives" : [
-                    {"key": "true",
+                    {"key": true,
                      "alternative": "Alternative text 1"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 2"},
-                    {"key": "false",
+                    {"key": false,
                      "alternative": "Alternative text 3"}
                  ]
                 }

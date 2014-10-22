@@ -154,7 +154,7 @@ var quiz = {
             if (this.form[i].getAttribute("type") == "radio" &&
                 this.form[i].checked == true) {
                 var values = this.parseObj(this.form[i].value);
-                if (this.isCorrect(values) == "true") {
+                if (this.isCorrect(values)) {
                     correct++;
                 }
                 count++;
