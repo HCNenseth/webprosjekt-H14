@@ -8,6 +8,7 @@ window.onload = function() {
     quiz.file = "lib/quiz.json";
 
     quiz.form = form;
+    quiz.formlegend = document.getElementById("quizlegend");
     quiz.formcategories = document.getElementById("quizcategories");
     quiz.formlevels = document.getElementById("quizlevels");
     quiz.formquestions = document.getElementById("quizquestions");

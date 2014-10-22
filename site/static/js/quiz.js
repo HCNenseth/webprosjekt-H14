@@ -6,6 +6,7 @@ var quiz = {
     lib: {},
     file: "",
     form: [],
+    formlegend: "",
     formcategories: "",
     formlevels: "",
     formquestions: "",
@@ -111,6 +112,7 @@ var quiz = {
                 }
             }
         }
+        this.formlegend.innerHTML = "Level";
         this.formcategories.setAttribute("style", "display: none");
     },
     loadQuestions: function(cat, level) {
@@ -123,6 +125,7 @@ var quiz = {
                                                                 i));
             }
         }
+        this.formlegend.innerHTML = "Questions";
         this.formlevels.setAttribute("style", "display: none");
     },
     submit: function() {
