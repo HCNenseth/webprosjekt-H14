@@ -141,6 +141,7 @@ var quiz = {
                 count++;
             }
         }
+        this.form.setAttribute("style", "display: none");
         this.result.appendChild(document.createTextNode(
                     "Result: "+correct+" of: "+count+" questions."));
         return false;
