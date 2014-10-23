@@ -3,7 +3,7 @@
  */
 
 window.onload = function() {
-    var form = document.forms["quizform"];
+    var form = document.getElementById("quizform");
 
     quiz.file = "lib/quiz.json";
 
@@ -13,6 +13,7 @@ window.onload = function() {
     quiz.formlevels = document.getElementById("quizlevels");
     quiz.formquestions = document.getElementById("quizquestions");
     quiz.result = document.getElementById("result");
+    quiz.loadInitState();
 
     quiz.loadLib(function() {
         quiz.loadCategories();
