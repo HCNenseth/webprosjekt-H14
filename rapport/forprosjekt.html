@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forprosjekt rapport - KITT - #1</title>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <style type="text/css">
+            html {
+                background: url("bg.png");
+                margin-top: 10px;
+            }
+            body {
+                padding-top: 1px;
+                width: 700px;
+                margin: 0 auto;
+                font-family: "Arial";
+                font-size: 100%;
+                background: #fff;
+                line-height: 20px;
+            }
+            .shadow {
+                -moz-box-shadow: 0 4px 18px #C8C8C8;
+                -webkit-box-shadow: 0 4px 18px #C8C8C8;
+                box-shadow: 0 4px 18px #C8C8C8;
+                -webkit-border-radius: 11px;
+                -moz-border-radius: 11px;
+                border-radius: 11px;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+            header#main {
+                text-align: center;
+            }
+            header#main ul {
+                list-style: none;
+            }
+            article {
+                margin: 10px 0px;
+                padding: 10px;
+                font-size: 90%;
+                line-height: 18px;
+            }
+            article#toc {
+                font-size: 100%;
+                line-height: 20px;
+            }
+            article h2 {
+                border-bottom: 1px solid lightgray;
+            }
+            article h3.underline {
+                border-bottom: 1px solid lightgray;
+            }
+            article ul {
+                list-style: none;
+            }
+            table {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body class="shadow">
+        <header id="main">
+            <h1>Forprosjekt rapport for Webprosjekt.</h1>
+            <h1>KITT (Knight Industries 3000)</h1>
+            <h2>Gruppe #1</h2>
+            <ul>
+                <li>Hans-Christian Nenseth, <a href="http://student.cs.hioa.no/~s236334/">s236334</a></li>
+                <li>Marius Alexander Skjolden, <a href="http://student.cs.hioa.no/~s114143/">s114143</a></li>
+                <li>Torbjørn M. Brandrud, <a href="http://student.cs.hioa.no/~s236329/">s236329</a></li>
+                <li>Hans Petter Osvold, <a href="http://student.cs.hioa.no/~s929913/">s929913</a></li>
+            </ul>
+            <h2>
+            30. Oktober 2014
+            </h2>
+        </header>
+        <section>
+            <article id="toc">
+                <header>
+                    <h2>Table of Contents</h2>
+                </header>
+                <ul>
+                    <li><a href="#article1">Kort beskrivelse</a></li>
+                    <li><a href="#article2">Use cases</a></li>
+                    <li><a href="#article3">Trådskisser av timeline-grensesnittet</a></li>
+                    <li><a href="#article4">Trådskisser av Quiz-grensesnittet</a></li>
+                    <li><a href="#article5">Fordeling av arbeidsoppgaver</a></li>
+                    <li><a href="#article6">Milepæler</a></li>
+                    <li><a href="#article7">Teknologier vi har valgt å bruke</a></li>
+                    <li><a href="#article8">Vi har valgt å etterstrebe smidig metode</a></li>
+                    <li><a href="#article9">Git</a></li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <article id="article1">
+                <header>
+                    <h2>Kort beskrivelse</h2>
+                </header>
+                <p>
+                Nettstedet skal inneholde en vertikal timeline ( tenk Facebook sin timeline ). Denne skal ta brukeren med på en reise gjennom internettets historie. Vi har valgt å sette fokus på WWW. Samtidig skal nettstedet inneholde en artig teknologi-quiz.
+                </p>
+            </article>
+            <article id="article2">
+                <header>
+                    <h2>Use Cases</h2>
+                </header>
+                <h3 class="underline">Use case:</h3>
+                <p>
+                    <ul>
+                        <li>Landingsside / Forside - Dekstop versjon</li>
+                    </ul>
+                    <h3>Hvem:</h3>
+                    <ul>
+                        <li>Anonyme brukere</li>
+                    </ul>
+                    <h3>Krav til bruker:</h3>
+                    <ul>
+                        <li>Ingen spesielle.</li>
+                    </ul>
+                    <h3>Basic flow:</h3>
+                    <ol>
+                        <li>Siden vil være lastet med artikler under et header område.</li>
+                        <li>Artiklene vil være presentert som en vertikal timeline hvor brukeren kan følge timelinen nedover ved å skrolle nedover på siden.</li>
+                        <li>Timelinen vil være presentert mellom artiklene.</li>
+                        <li>Alle artiklene på siden vil være presentert nedover timelinen.</li>
+                        <li>Timelinen er sortert i stigende rekkefølge etter dato fra 1970.</li>
+                    </ol>
+                </p>
+                <h3 class="underline">Use case:</h3>
+                <p>
+                    <ul>
+                        <li>Landingsside / Forside - Mobil versjon</li>
+                    </ul>
+                    <h3>Hvem:</h3>
+                    <ul>
+                        <li>Anonyme brukere</li>
+                    </ul>
+                    <h3>Krav til bruker:</h3>
+                    <ul>
+                        <li>Ingen spesielle.</li>
+                    </ul>
+                    <h3>Basic flow:</h3>
+                    <ol>
+                        <li>Siden vil være lastet med artikler under et header område.</li>
+                        <li>Artiklene vil være presentert som en vertikal timeline hvor brukeren kan følge timelinen nedover ved å skrolle nedover på siden.</li>
+                        <li>Timelinen vil være presentert til venstre for artiklene.</li>
+                        <li>Alle artiklene på siden vil være presentert nedover timelinen.</li>
+                        <li>Timelinen er sortert i stigende rekkefølge etter dato fra 1970.</li>
+                    </ol>
+                </p>
+                <h3 class="underline">Use case:</h3>
+                <p>
+                    <ul>
+                        <li>Quiz: Desktop og Mobil versjon.</li>
+                    </ul>
+                    <h3>Hvem:</h3>
+                    <ul>
+                        <li>Anonyme brukere</li>
+                    </ul>
+                    <h3>Krav til bruker:</h3>
+                    <ul>
+                        <li>JavaScript aktivert. Ettersom denne quizen krever JavaScript vil brukere som ikke ha JavaScript aktivert, få en tydelig beskjed om at denne delen av siden krever JavaScript.</li>
+                    </ul>
+                    <h3>Basic flow:</h3>
+                    <ol>
+                        <li>Brukeren lander på en ren quiz side, som inneholder bare quizen.</li>
+                        <li>Første side vil brukeren måtte velge en quiz kategori.</li>
+                        <li>Deretter blir brukeren sendt til en ny side hvor brukeren blir presentert med valg av vanskelighetsgrad.</li>
+                        <li>Nå begynner quizen og første spørsmål blir vist på skjermen. Spørsmålene kan inneholde tekst og bilde. Svar alternativene vil kun inneholde tekst.</li>
+                        <li>Etter at brukeren har avgitt svar, vil brukeren få umiddelbar tilbakemelding på om svaret var rett eller galt.</li>
+                        <li>Det vil ikke være mulig å gå tilbake for å endre svaret.</li>
+                        <li>Etter at quizen er ferdig, og alle svarene er avgitt vil brukeren lande på en resultatside.</li>
+                        <li>På resultatsiden presenteres poeng, og knapper for å navigere til en ny quiz runde, eller tilbake til hovedsiden.</li>
+                    </ol>
+                </p>
+            </article>
+            <article id="article3">
+                <header>
+                    <h2>Trådskisser av timeline-grensesnittet</h2>
+                </header>
+                <p>
+                <img alt="" src="images/image00.jpg" title="">
+                <img alt="" src="images/image02.jpg" title="">
+                </p>
+            </article>
+            <article id="article4">
+                <header>
+                    <h2>Trådskisser av Quiz-grensesnittet</h2>
+                </header>
+                <p>
+                <img alt="" src="images/image05.jpg" title="">
+                <img alt="" src="images/image04.jpg" title="">
+                <img alt="" src="images/image03.jpg" title="">
+                <img alt="" src="images/image01.jpg" title="">
+                <img alt="" src="images/image06.jpg" title="">
+                </p>
+            </article>
+            <article id="article5">
+                <header>
+                    <h2>Fordeling av arbeidsoppgaver</h2>
+                </header>
+                <table>
+                    <tr>
+                        <td>Prosjektleder:</td>
+                        <td>Hans-Christian Nenseth</td>
+                    </tr>
+                    <tr>
+                        <td>Rapportansvarlig:</td>
+                        <td>Hans Petter Osvold</td>
+                    </tr>
+                    <tr>
+                        <td>Artikkelansvarlig:</td>
+                        <td>Torbjørn M. Brandrud</td>
+                    </tr>
+                    <tr>
+                        <td>Backendansvarlig:</td>
+                        <td>Marius Alexander Skjolden</td>
+                    </tr>
+                </table>
+                <p>
+                Nettstedets HTML og CSS struktur, med definisjoner for layout, skal kodes i fellesskap.
+                </p>
+                <p>
+                Vi har bestemt oss for å bruke mandager og onsdager til møter og felleskoding. Ved behov kan vi planlegge hjemmearbeid i tillegg til disse møtedagene.
+                </p>
+                <p>
+                Noe hjemmearbeid er allerede planlagt. Vi har for eksempel blitt enige om at hvert medlem av prosjektet skal skal bidra med noen forslag til milepælen “CSS farger og Finpuss”. Arbeidet med dette utføres utenfor de planlagte møtedagene og forslag lastes opp til Git.  
+                </p>
+            </article>
+            <article id="article6">
+                <header>
+                    <h2>Milepæler</h2>
+                </header>
+                <table>
+                    <tr>
+                        <td>HTML & CSS struktur og definisjoner for layout:</td>
+                        <td>ferdigstilles senest den 12. november.</td>
+                    </tr>
+                    <tr>
+                        <td>Quiz ( teknisk + innhold):</td>
+                        <td>ferdigstilles senest den 12. november.</td>
+                    </tr>
+                    <tr>
+                        <td>CSS farger og finpuss:</td>
+                        <td>ferdigstilles senest den 19. november.</td>
+                    </tr>
+                    <tr>
+                        <td>Artikler:</td>
+                        <td>ferdigstilles senest den 24. november.</td>
+                    </tr>
+                </table>
+                <p>
+                Testing utføres kontinuerlig, men ferdigstilles senest den 26. november.
+                Rapport skriving utføres kontinuerlig, men ferdigstilles den siste uken.
+                </p>
+            </article>
+            <article id="article7">
+                <header>
+                    <h2>Teknologier vi har valgt å bruke</h2>
+                </header>
+                <p>
+                Vi har bestemt oss for å bruke HTML5 og CSS3. Det er flere grunner til denne avgjørelsen. Samtidig finnes det argumenter mot bruk av disse teknologiene. Vi har veid fram og tilbake og endt på at vi vil at nettstedet skal være fremtidsrettet og da spesielt oppfylle slagordet “mobile first”. Nettsiden skal dermed være responsiv, og vi vil bruke CSS3 media queries for å oppnå dette responsive designet.
+                </p>
+                <p>
+                Det er flere argumenter for å bruke HTML5. For det første så har HTML5 siden 2012 vært anbefalt til å bli den nye bransjestandaren. HTML5 står for fremtiden. Samtidig så åpner HTML5 for en renere og mer ryddig kode med sin nye semantikk.
+                </p>
+                <p>
+                Når vi skal lage et moderne nettsted så kommer vi ikke unna å bruke JavaScript. Vi har planlagt å bruke JavaScript til å lage en quiz side. Denne siden vil ikke stå på egne bein, produktmessig, men vår hypotese er at om denne quizen blir intressant nok, så vil den øke brukernes oppfattede verdi av siden.
+                </p>
+                <p>
+                Som datastruktur for quizen har vi valgt å bruke JavaScript Object Notation ( JSON ).
+                For å kunne gi brukeren en god opplevelse under quizen skal vi bruke AJAX for å manipulere formen til quizen.
+                </p>
+                <p>
+                Det at vi ikke kan bruke rammeverk, gjør at vi ser bort i fra typisk “JQuery” funksjonalitet som karuseller, overganger, etc. Ettersom det blir en stor oppgave å “finne opp hjulet på nytt” med i underkant av 4 uker arbeidstid.  
+                </p>
+                <p>
+                Vi har vurdert å skrive en PHP & MySQL backend til siden, men ettersom dette ikke ligger i oppgaven, og at tidsrammen på dette prosjektet er nokså kort, ser vi på dette som uhensiktsmessig. Dermed har vi ikke tatt utgangspunkt i disse teknologiene.
+                </p>
+            </article>
+            <article id="article8">
+                <header>
+                    <h2>Vi har valgt å etterstrebe smidig metode</h2>
+                </header>
+                <p>
+                Vi har valgt å etterstrebe smidig metode.
+                </p>
+            </article>
+            <article id="article9">
+                <header>
+                    <h2>Git</h2>
+                </header>
+                <p>
+                Vi har tatt en beslutning om å bruke Git. Dette gjør det lettere å dele kodebasen innad i teamet, og for å holde versjonskontroll.
+                </p>
+            </article>
+        </section>
+    </body>
+</html>
