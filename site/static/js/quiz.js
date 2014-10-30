@@ -5,12 +5,13 @@
 var quiz = {
     lib: {},
     file: "",
-    form: [],
+    form: "",
     formlegend: "",
     formcategories: "",
     formlevels: "",
     formquestions: "",
     result: "",
+    submitButton: "",
     readJsonFile: function(callback) {
         var request = new XMLHttpRequest();
         request.open("GET", this.file, true);
@@ -27,6 +28,15 @@ var quiz = {
             callback();
         });
     },
+    loadInitState: function() {
+        var inputs = this.form.getElementsByTagName("input");
+        for (var i = 0; i < inputs.length; i++) {
+            if (inputs[i].getAttribute("type") == "submit") {
+                this.submitButton = inputs[i];
+            }
+        }
+        this.submitButton.setAttribute("style", "display:none");
+    },
     capitalize: function(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     },
@@ -42,7 +52,6 @@ var quiz = {
     shuffle: function(list) {
         /* Fisher-Yates shuffle */
         var c = list.length, tmp, idx;
-
         while (c > 0) {
             idx = Math.floor(Math.random() * c--);
 
@@ -51,7 +60,6 @@ var quiz = {
             list[c] = list[idx];
             list[idx] = tmp;
         }
-
         return list;
     },
     isCorrect: function(obj) {
@@ -81,11 +89,21 @@ var quiz = {
         element.setAttribute("required", required);
         return element;
     },
-    questionGen: function(obj, cat, level, qID) {
+    questionGen: function(obj, cat, level, qID, max) {
         var root = document.createElement("li");
         var alternatives = document.createElement("ul");
         var question = document.createElement("p");
-        
+        var nextButton = this.buttonGen("Next",
+                                        "next"+qID,
+                                        "quiz.showNextQuestion('"+qID+"','"+max+"')");
+
+        root.setAttribute("class", "question");
+        root.setAttribute("data-id", qID);
+
+        if (parseInt(qID) != 0) {
+            root.setAttribute("style", "display: none");
+        }
+
         question.appendChild(document.createTextNode(obj.question));
 
         var groupId = this.buildGroupObj(cat, level, qID);
@@ -104,7 +122,28 @@ var quiz = {
 
         root.appendChild(question);
         root.appendChild(alternatives);
+        if (parseInt(qID) != parseInt(max) -1) {
+            root.appendChild(nextButton);
+        }
         return root;
+    },
+    showNextQuestion: function(curID, max) {
+        var questions = this.form.getElementsByClassName("question");
+
+        /* hide current question */
+        questions[curID].setAttribute("style", "display: none");
+
+        /* find and show next question */
+        for (var i = 0; i < questions.length; i++) {
+            var id = questions[i].getAttribute("data-id");
+            if (parseInt(id) == parseInt(curID)+1) {
+                questions[i].removeAttribute("style");
+            }
+        }
+
+        if (parseInt(curID) + 1 == parseInt(max) -1) {
+            this.submitButton.removeAttribute("style");
+        }
     },
     loadCategories: function() {
         for (var i = 0; i < lib.categories.length; i++) {
@@ -138,10 +177,12 @@ var quiz = {
             /* shuffle questions */
             questions = this.shuffle(questions);
             for (var i = 0; i < questions.length; i++) {
-                this.formquestions.appendChild(this.questionGen(questions[i],
-                                                                cat,
-                                                                level,
-                                                                i));
+                this.formquestions.appendChild(
+                        this.questionGen(questions[i],
+                                         cat,
+                                         level,
+                                         i,
+                                         questions.length));
             }
         }
         this.formlegend.innerHTML = "Questions";
