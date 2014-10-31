@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <title>Title</title>
+        <title>Quiz</title>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="static/css/quiz.css" title="quiz style">
         <link rel="stylesheet" href="static/css/style.css" title="main style">
-        <link rel="stylesheet" href="static/css/mobile.css" title="main style">
+        <link rel="stylesheet" href="static/css/mobile.css" title="mobile style">
     </head>
     <body>
-        <form name="quizform" id="quizform">
-            <fieldset>
-                <legend id="quizlegend">Category</legend>
-                <ul id="quizcategories"></ul>
-                <ul id="quizlevels"></ul>
-                <ul id="quizquestions"></ul>
-            </fieldset>
-            <input type="submit" class="submit">
-        </form>
-        <div id="result"></div>
+        <div id="quizbox" class="shadow">
+            <form name="quizform" id="quizform">
+                <fieldset>
+                    <legend id="quizlegend">Velg kategori</legend>
+                    <ul id="quizcategories"></ul>
+                    <ul id="quizlevels"></ul>
+                    <ul id="quizquestions"></ul>
+                </fieldset>
+            </form>
+            <div id="result"></div>
+        </div>
         <script type="text/javascript" src="static/js/quiz.js"></script>
         <script type="text/javascript" src="static/js/generic.js"></script>
     </body>

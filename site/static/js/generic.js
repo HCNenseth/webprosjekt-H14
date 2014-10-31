@@ -13,11 +13,8 @@ window.onload = function() {
     quiz.formlevels = document.getElementById("quizlevels");
     quiz.formquestions = document.getElementById("quizquestions");
     quiz.result = document.getElementById("result");
-    quiz.loadInitState();
 
     quiz.loadLib(function() {
         quiz.loadCategories();
     });
-
-    form.setAttribute("onsubmit", "return quiz.submit()");
 }

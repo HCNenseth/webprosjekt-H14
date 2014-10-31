@@ -11,7 +11,6 @@ var quiz = {
     formlevels: "",
     formquestions: "",
     result: "",
-    submitButton: "",
     readJsonFile: function(callback) {
         var request = new XMLHttpRequest();
         request.open("GET", this.file, true);
@@ -27,15 +26,6 @@ var quiz = {
             this.lib = JSON.parse(response);
             callback();
         });
-    },
-    loadInitState: function() {
-        var inputs = this.form.getElementsByTagName("input");
-        for (var i = 0; i < inputs.length; i++) {
-            if (inputs[i].getAttribute("type") == "submit") {
-                this.submitButton = inputs[i];
-            }
-        }
-        this.submitButton.setAttribute("style", "display:none");
     },
     capitalize: function(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
@@ -73,9 +63,9 @@ var quiz = {
         }
         return false;
     },
-    buttonGen: function(value, name, func) {
+    buttonGen: function(type, value, name, func) {
         var element = document.createElement("input");
-        element.setAttribute("type", "button");
+        element.setAttribute("type", type);
         element.setAttribute("value", value);
         element.setAttribute("name", name);
         element.setAttribute("onclick", func);
@@ -92,8 +82,10 @@ var quiz = {
     questionGen: function(obj, cat, level, qID, max) {
         var root = document.createElement("li");
         var alternatives = document.createElement("ul");
+        var image = document.createElement("img");
         var question = document.createElement("p");
-        var nextButton = this.buttonGen("Next",
+        var nextButton = this.buttonGen("button",
+                                        "Gå videre",
                                         "next"+qID,
                                         "quiz.showNextQuestion('"+qID+"','"+max+"')");
 
@@ -104,6 +96,11 @@ var quiz = {
             root.setAttribute("style", "display: none");
         }
 
+        image.setAttribute("src", obj.image);
+        image.setAttribute("class", "quizimage");
+        question.setAttribute("class", "questiontext");
+
+        question.appendChild(image);
         question.appendChild(document.createTextNode(obj.question));
 
         var groupId = this.buildGroupObj(cat, level, qID);
@@ -120,10 +117,18 @@ var quiz = {
             alternatives.appendChild(li);
         }
 
+        alternatives.setAttribute("class", "alternatives");
+
         root.appendChild(question);
         root.appendChild(alternatives);
         if (parseInt(qID) != parseInt(max) -1) {
             root.appendChild(nextButton);
+        } else {
+            root.appendChild(this.buttonGen("submit",
+                        "Vis resultat",
+                        null,
+                        "return quiz.submit()"
+                        ));
         }
         return root;
     },
@@ -133,6 +138,8 @@ var quiz = {
         /* hide current question */
         questions[curID].setAttribute("style", "display: none");
 
+        this.formlegend.innerHTML = "Spørsmål " + (parseInt(curID)+2) + " av " + max;
+
         /* find and show next question */
         for (var i = 0; i < questions.length; i++) {
             var id = questions[i].getAttribute("data-id");
@@ -140,16 +147,13 @@ var quiz = {
                 questions[i].removeAttribute("style");
             }
         }
-
-        if (parseInt(curID) + 1 == parseInt(max) -1) {
-            this.submitButton.removeAttribute("style");
-        }
     },
     loadCategories: function() {
         for (var i = 0; i < lib.categories.length; i++) {
             var li = document.createElement("li");
             var text = Object.keys(lib.categories[i])[0];
-            li.appendChild(this.buttonGen(text,
+            li.appendChild(this.buttonGen("button",
+                                          text,
                                           "cat",
                                           "quiz.loadLevels('"+i+"')"));
             this.formcategories.appendChild(li);
@@ -161,19 +165,21 @@ var quiz = {
                 var levelArr = Object.keys(lib.categories[cat][key][levels]);
                 for (var i = 0; i < levelArr.length; i++) {
                     var li = document.createElement("li");
-                    li.appendChild(this.buttonGen(this.capitalize(levelArr[i]),
+                    li.appendChild(this.buttonGen("button",
+                                                  this.capitalize(levelArr[i]),
                                                   levelArr[i],
                                                   "quiz.loadQuestions('"+cat+"','"+levelArr[i]+"')"));
                     this.formlevels.appendChild(li);
                 }
             }
         }
-        this.formlegend.innerHTML = "Level";
+        this.formlegend.innerHTML = "Velg vanskelighets grad";
         this.formcategories.setAttribute("style", "display: none");
     },
     loadQuestions: function(cat, level) {
+        var questions;
         for (var key in lib.categories[cat]) {
-            var questions = lib.categories[cat][key][levels][level];
+            questions = lib.categories[cat][key][levels][level];
             /* shuffle questions */
             questions = this.shuffle(questions);
             for (var i = 0; i < questions.length; i++) {
@@ -185,12 +191,17 @@ var quiz = {
                                          questions.length));
             }
         }
-        this.formlegend.innerHTML = "Questions";
+        this.formlegend.innerHTML = "Spørsmål 1 av " + questions.length;
         this.formlevels.setAttribute("style", "display: none");
     },
     submit: function() {
         var count = 0;
         var correct = 0;
+
+        var actions = document.createElement("ul");
+        var newQuiz = document.createElement("li");
+        var homePage = document.createElement("li");
+
         for (var i = 0; i < this.form.length; i++) {
             if (this.form[i].getAttribute("type") == "radio" &&
                 this.form[i].checked == true) {
@@ -201,9 +212,23 @@ var quiz = {
                 count++;
             }
         }
+
+        newQuiz.appendChild(this.buttonGen("button",
+                    "Ny quiz",
+                    "",
+                    "window.location.reload()"));
+        homePage.appendChild(this.buttonGen("button",
+                    "Tilbake til hovedsiden",
+                    "",
+                    "window.location = '/'"));
+
+        actions.appendChild(newQuiz);
+        actions.appendChild(homePage);
+
         this.form.setAttribute("style", "display: none");
         this.result.appendChild(document.createTextNode(
                     "Result: "+correct+" of: "+count+" questions."));
+        this.result.appendChild(actions);
         return false;
     }
 }
