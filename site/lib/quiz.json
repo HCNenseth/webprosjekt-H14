@@ -39,5 +39,24 @@
                 }
             ]
         }
-    }}
+    }},
+    { "History of the Web" : {
+            "levels" : {
+                "easy" : [
+                    {"question" : "Who created the first email program to work over a distributed network?",
+                     "image": "static/img/quiz/web20.jpg",
+                     "alternatives" : [
+                        {"key": false,
+                         "alternative": "Dale Dougherty"},
+                        {"key": false,
+                         "alternative": "Tim O'Reilly"},
+                        {"key": false,
+                         "alternative": "Steve Jobs"},
+                        {"key": true,
+                         "alternative": "Ray Tomlinson"}
+                     ]
+                    }
+                ]
+            }
+        }}
 ]}
