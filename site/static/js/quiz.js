@@ -6,6 +6,7 @@ var quiz = {
     lib: {},
     file: "",
     form: "",
+    curtain: "",
     formlegend: "",
     formcategories: "",
     formlevels: "",
@@ -21,26 +22,35 @@ var quiz = {
             }
         }
     },
+    /* Function for loading and readJsonFile, and waiting for its
+     * callback, then giving its own callback for the caller to
+     * process further. */
     loadLib: function(callback) {
         this.readJsonFile(function(response) {
             this.lib = JSON.parse(response);
             callback();
         });
     },
+    initState: function() {
+        this.curtain.setAttribute("style", "display: none");
+    },
+    /* Simple capitalize function */
     capitalize: function(string) {
         return string.charAt(0).toUpperCase() + string.slice(1);
     },
     parseObj: function(string) {
         return JSON.parse(string);
     },
+    /* Build serialized object used for pushing into DOM */
     buildGroupObj: function(cat, level, question) {
         return '['+cat+', "'+level+'", '+question+']';
     },
+    /* Build serialized object used for pushing into DOM */
     buildIdObj: function(cat, level, question, answer) {
         return '['+cat+', "'+level+'", '+question+', '+answer+']';
     },
+    /* Fisher-Yates shuffle */
     shuffle: function(list) {
-        /* Fisher-Yates shuffle */
         var c = list.length, tmp, idx;
         while (c > 0) {
             idx = Math.floor(Math.random() * c--);
@@ -63,6 +73,7 @@ var quiz = {
         }
         return false;
     },
+    /* Generate button element */
     buttonGen: function(type, value, name, func) {
         var element = document.createElement("input");
         element.setAttribute("type", type);
@@ -71,6 +82,7 @@ var quiz = {
         element.setAttribute("onclick", func);
         return element;
     },
+    /* Generate radio input element */
     radioGen: function(name, value, required) {
         var element = document.createElement("input");
         element.setAttribute("type", "radio");
@@ -79,15 +91,25 @@ var quiz = {
         element.setAttribute("required", required);
         return element;
     },
+    /* Generate question element. This includes image, question and
+     * alternatives */
     questionGen: function(obj, cat, level, qID, max) {
         var root = document.createElement("li");
         var alternatives = document.createElement("ul");
         var image = document.createElement("img");
         var question = document.createElement("p");
         var nextButton = this.buttonGen("button",
-                                        "Gå videre",
+                                        "Next",
                                         "next"+qID,
                                         "quiz.showNextQuestion('"+qID+"','"+max+"')");
+        var submitButton = this.buttonGen("button",
+                                          "Submit",
+                                          null,
+                                          "return quiz.submit()");
+
+        /* disable next button, until alternative has been selected */
+        nextButton.disabled = true;
+        submitButton.disabled = true;
 
         root.setAttribute("class", "question");
         root.setAttribute("data-id", qID);
@@ -113,6 +135,15 @@ var quiz = {
             var id = this.buildIdObj(cat, level, qID, i);
             label.appendChild(this.radioGen(groupId, id, "required"));
             label.appendChild(document.createTextNode(altText));
+            /* Make nextbutton active when one of the alternatives
+             * have been selected */
+            label.addEventListener('click', function(){
+                if (parseInt(qID) != parseInt(max) -1) {
+                    nextButton.disabled = false;
+                } else {
+                    submitButton.disabled = false;
+                }
+            }, false);
             li.appendChild(label);
             alternatives.appendChild(li);
         }
@@ -124,26 +155,60 @@ var quiz = {
         if (parseInt(qID) != parseInt(max) -1) {
             root.appendChild(nextButton);
         } else {
-            root.appendChild(this.buttonGen("submit",
-                        "Vis resultat",
-                        null,
-                        "return quiz.submit()"
-                        ));
+            root.appendChild(submitButton);
         }
         return root;
     },
+    showCurtain: function(bool) {
+        var banner = document.createElement("h1");
+
+        /* Show the curtain */
+        this.curtain.removeAttribute("style");
+
+        /* Give it color and text */
+        if (bool) {
+            this.curtain.setAttribute("class", "correct");
+            banner.appendChild(document.createTextNode("Correct!"));
+            this.curtain.appendChild(banner);
+        } else {
+            this.curtain.setAttribute("class", "incorrect");
+            banner.appendChild(document.createTextNode("Incorrect!"));
+            this.curtain.appendChild(banner);
+        }
+
+        /* Append an event listener for removing it */
+        this.curtain.addEventListener("click", function(){
+            this.setAttribute("style", "display: none");
+            this.removeChild(banner);
+        }, false);
+    },
     showNextQuestion: function(curID, max) {
         var questions = this.form.getElementsByClassName("question");
+        var curID = parseInt(curID);
+
+        for (var i = 0; i < this.form.length; i++) {
+            if (this.form[i].getAttribute("type") == "radio" &&
+                this.form[i].checked == true) {
+                var values = this.parseObj(this.form[i].value);
+                if (values[2] == curID) {
+                    if (this.isCorrect(values)) {
+                        this.showCurtain(true);
+                    } else {
+                        this.showCurtain(false);
+                    }
+                }
+            }
+        }
 
         /* hide current question */
         questions[curID].setAttribute("style", "display: none");
 
-        this.formlegend.innerHTML = "Spørsmål " + (parseInt(curID)+2) + " av " + max;
+        this.formlegend.innerHTML = "Question " + (curID+2) + " av " + max;
 
         /* find and show next question */
         for (var i = 0; i < questions.length; i++) {
             var id = questions[i].getAttribute("data-id");
-            if (parseInt(id) == parseInt(curID)+1) {
+            if (parseInt(id) == curID+1) {
                 questions[i].removeAttribute("style");
             }
         }
@@ -173,7 +238,7 @@ var quiz = {
                 }
             }
         }
-        this.formlegend.innerHTML = "Velg vanskelighets grad";
+        this.formlegend.innerHTML = "Choose level";
         this.formcategories.setAttribute("style", "display: none");
     },
     loadQuestions: function(cat, level) {
@@ -191,7 +256,7 @@ var quiz = {
                                          questions.length));
             }
         }
-        this.formlegend.innerHTML = "Spørsmål 1 av " + questions.length;
+        this.formlegend.innerHTML = "Question 1 av " + questions.length;
         this.formlevels.setAttribute("style", "display: none");
     },
     submit: function() {
@@ -214,11 +279,11 @@ var quiz = {
         }
 
         newQuiz.appendChild(this.buttonGen("button",
-                    "Ny quiz",
+                    "New quiz",
                     "",
                     "window.location.reload()"));
         homePage.appendChild(this.buttonGen("button",
-                    "Tilbake til hovedsiden",
+                    "Back to the main page",
                     "",
                     "window.location = '/'"));
 

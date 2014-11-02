@@ -8,6 +8,7 @@ window.onload = function() {
     quiz.file = "lib/quiz.json";
 
     quiz.form = form;
+    quiz.curtain = document.getElementById("curtain");
     quiz.formlegend = document.getElementById("quizlegend");
     quiz.formcategories = document.getElementById("quizcategories");
     quiz.formlevels = document.getElementById("quizlevels");
@@ -15,6 +16,7 @@ window.onload = function() {
     quiz.result = document.getElementById("result");
 
     quiz.loadLib(function() {
+        quiz.initState();
         quiz.loadCategories();
     });
 }

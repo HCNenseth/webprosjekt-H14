@@ -2,16 +2,18 @@
 <html>
     <head>
         <title>Quiz</title>
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="static/css/quiz.css" title="quiz style">
         <link rel="stylesheet" href="static/css/style.css" title="main style">
         <link rel="stylesheet" href="static/css/mobile.css" title="mobile style">
     </head>
     <body>
+        <div id="curtain"><span>[x] Click to remove</span></div>
         <div id="quizbox" class="shadow">
             <form name="quizform" id="quizform">
                 <fieldset>
-                    <legend id="quizlegend">Velg kategori</legend>
+                    <legend id="quizlegend">Choose category</legend>
                     <ul id="quizcategories"></ul>
                     <ul id="quizlevels"></ul>
                     <ul id="quizquestions"></ul>
