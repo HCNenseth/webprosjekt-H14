@@ -15,11 +15,11 @@ body {
 }
 
 .correct {
-    background: green;
+    background: #b3d8a6;
 }
 
 .incorrect {
-    background: red;
+    background: #c6463d;
 }
 
 #quizbox {

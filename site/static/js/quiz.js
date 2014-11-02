@@ -105,7 +105,7 @@ var quiz = {
         var submitButton = this.buttonGen("button",
                                           "Submit",
                                           null,
-                                          "return quiz.submit()");
+                                          "return quiz.submit('"+qID+"')");
 
         /* disable next button, until alternative has been selected */
         nextButton.disabled = true;
@@ -159,6 +159,21 @@ var quiz = {
         }
         return root;
     },
+    checkAnswer: function(curID) {
+        for (var i = 0; i < this.form.length; i++) {
+            if (this.form[i].getAttribute("type") == "radio" &&
+                this.form[i].checked == true) {
+                var values = this.parseObj(this.form[i].value);
+                if (values[2] == curID) {
+                    if (this.isCorrect(values)) {
+                        this.showCurtain(true);
+                    } else {
+                        this.showCurtain(false);
+                    }
+                }
+            }
+        }
+    },
     showCurtain: function(bool) {
         var banner = document.createElement("h1");
 
@@ -186,19 +201,8 @@ var quiz = {
         var questions = this.form.getElementsByClassName("question");
         var curID = parseInt(curID);
 
-        for (var i = 0; i < this.form.length; i++) {
-            if (this.form[i].getAttribute("type") == "radio" &&
-                this.form[i].checked == true) {
-                var values = this.parseObj(this.form[i].value);
-                if (values[2] == curID) {
-                    if (this.isCorrect(values)) {
-                        this.showCurtain(true);
-                    } else {
-                        this.showCurtain(false);
-                    }
-                }
-            }
-        }
+        /* Check answer */
+        this.checkAnswer(curID);
 
         /* hide current question */
         questions[curID].setAttribute("style", "display: none");
@@ -259,13 +263,16 @@ var quiz = {
         this.formlegend.innerHTML = "Question 1 av " + questions.length;
         this.formlevels.setAttribute("style", "display: none");
     },
-    submit: function() {
+    submit: function(curID) {
         var count = 0;
         var correct = 0;
 
+        var banner = document.createElement("h1");
         var actions = document.createElement("ul");
         var newQuiz = document.createElement("li");
         var homePage = document.createElement("li");
+
+        this.checkAnswer(parseInt(curID));
 
         for (var i = 0; i < this.form.length; i++) {
             if (this.form[i].getAttribute("type") == "radio" &&
@@ -291,8 +298,9 @@ var quiz = {
         actions.appendChild(homePage);
 
         this.form.setAttribute("style", "display: none");
-        this.result.appendChild(document.createTextNode(
-                    "Result: "+correct+" of: "+count+" questions."));
+        banner.appendChild(document.createTextNode(
+                    "Result: "+correct+" of "+count+" questions."));
+        this.result.appendChild(banner);
         this.result.appendChild(actions);
         return false;
     }

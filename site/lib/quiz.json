@@ -1,63 +1,43 @@
 { "categories" : [
-    { "Hest" : {
+    { "Web" : {
         "levels" : {
             "easy" : [
-                {"question" : "Langt spørsmål langt spørsmål langt spørsmål ?",
-                 "image": "static/img/quiz/qmark.png",
+                {"question" : "Who coined the term Web 2.0",
+                 "image": "static/img/quiz/web20.jpg",
                  "alternatives" : [
                     {"key": true,
-                     "alternative": "Alternative text 1"},
+                     "alternative": "Dale Dougherty"},
                     {"key": false,
-                     "alternative": "Alternative text 2"},
+                     "alternative": "Tim O'Reilly"},
                     {"key": false,
-                     "alternative": "Alternative text 3"},
+                     "alternative": "Steve Jobs"},
                     {"key": false,
-                     "alternative": "Alternative text 4"}
+                     "alternative": "Bill Gates"}
                  ]
                 },
-                {"question" : "Question text 2",
+                {"question" : "According to Tim O'Reilly, the Web 2.0 philosophy:",
                  "image": "static/img/quiz/qmark.png",
                  "alternatives" : [
+                    {"key": false,
+                     "alternative": "Sacrifices users security"},
                     {"key": true,
-                     "alternative": "Alternative text 1"},
+                     "alternative": "Democratizes the Web"},
                     {"key": false,
-                     "alternative": "Alternative text 2"},
-                    {"key": false,
-                     "alternative": "Alternative text 3"},
-                    {"key": false,
-                     "alternative": "Alternative text 4"}
+                     "alternative": "Makes the Internet really boring"}
                  ]
                 },
-                {"question" : "Question text 3",
-                 "image": "static/img/quiz/qmark.png",
+                {"question" : "Which if the following is a feature of Web 1.0?",
+                 "image": "static/img/quiz/tim_oreilly.jpg",
                  "alternatives" : [
                     {"key": true,
-                     "alternative": "Alternative text 1"},
+                     "alternative": "Static Web sites"},
                     {"key": false,
-                     "alternative": "Alternative text 2"},
+                     "alternative": "Interactive Web sites"},
                     {"key": false,
-                     "alternative": "Alternative text 3"},
-                    {"key": false,
-                     "alternative": "Alternative text 4"}
+                     "alternative": "Social networking"}
                  ]
                 }
-            ],
-            "medium"  : [],
-            "hard" : []
-        }
-    }},
-    { "Hund" : {
-        "levels" : {
-            "easy" : [],
-            "medium"  : [],
-            "hard" : []
-        }
-    }},
-    { "Katt" : {
-        "levels" : {
-            "easy" : [],
-            "medium"  : [],
-            "hard" : []
+            ]
         }
     }}
 ]}
