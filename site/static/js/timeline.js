@@ -8,6 +8,7 @@ window.onload = function() {
     var bullets = document.getElementsByClassName("timeline-img");
     var blocks = document.getElementsByClassName("timeline-block");
     var state = false;
+    var defaultLocation = "#timeline";
 
     function hideBlocks(cat) {
         if (state) {
@@ -15,6 +16,7 @@ window.onload = function() {
             showAll();
         } else {
             state = true;
+            window.location.href = defaultLocation;
             for (var i = 0; i < blocks.length; i++) {
                 var thisCat = blocks[i].getAttribute("data-category");
                 if (thisCat != cat) {
