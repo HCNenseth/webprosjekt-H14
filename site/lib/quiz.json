@@ -44,7 +44,7 @@
             "levels" : {
                 "easy" : [
                     {"question" : "Who created the first email program to work over a distributed network?",
-                     "image": "static/img/quiz/web20.jpg",
+                     "image": "static/img/quiz/tomlinson.jpg",
                      "alternatives" : [
                         {"key": false,
                          "alternative": "Dale Dougherty"},
