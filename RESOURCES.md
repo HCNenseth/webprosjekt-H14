@@ -6,3 +6,4 @@ List of resources and inspiration
 * [Vertical timeline](http://codyhouse.co/gem/vertical-timeline)
 * [Timeline Tumblr](http://timeline.theme.tumblr.com)
 * [GlyphIcons](http://glyphicons.com/)
+* [Devicons](http://devdocs.io/)
