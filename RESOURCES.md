@@ -7,3 +7,4 @@ List of resources and inspiration
 * [Timeline Tumblr](http://timeline.theme.tumblr.com)
 * [GlyphIcons](http://glyphicons.com/)
 * [Devicons](http://devdocs.io/)
+* [Timline W3C](http://www.w3.org/2005/01/timelines/timeline-2500x998.png)
