@@ -36,6 +36,14 @@ h1, h2 {
   font-weight: bold;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
 /* -------------------------------- 
 
 Modules - reusable parts of our design
