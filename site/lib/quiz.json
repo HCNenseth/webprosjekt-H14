@@ -26,6 +26,17 @@
                      "alternative": "Makes the Internet really boring"}
                  ]
                 },
+                {"question" : "Name the first public packet data service:",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": false,
+                     "alternative": "Kazzaa"},
+                    {"key": true,
+                     "alternative": "TeleNet"},
+                    {"key": false,
+                     "alternative": "NAPSTER"}
+                 ]
+                },
                 {"question" : "Which if the following is a feature of Web 1.0?",
                  "image": "static/img/quiz/tim_oreilly.jpg",
                  "alternatives" : [
@@ -37,18 +48,7 @@
                      "alternative": "Social networking"}
                  ]
                 }
-                {"question" : "Who was Norways first ISP?",
-                  "image": "",
-                  "alternatives" : [
-                    {"key": true,
-                     "alternative": "PowerTech"},
-                    {"key": false,
-                    "alternative": "Canal Digital"},
-                    {"key": false,
-                     "alternative:" "NextGentel"}
-                  ]
 
-                }
             ]
         }
     }},
