@@ -37,6 +37,18 @@
                      "alternative": "Social networking"}
                  ]
                 }
+                {"question" : "Who was Norways first ISP?",
+                  "image": "",
+                  "alternatives" : [
+                    {"key": true,
+                     "alternative": "PowerTech"},
+                    {"key": false,
+                    "alternative": "Canal Digital"},
+                    {"key": false,
+                     "alternative:" "NextGentel"}
+                  ]
+
+                }
             ]
         }
     }},
