@@ -53,17 +53,19 @@ window.onload = function() {
 
     }
 
-    function addListeners() {
+    function addBulletListeners() {
         for (var i = 0; i < bullets.length; i++) {
             bullets[i].addEventListener("mousedown", function() {
                 hideBlocks(this.getAttribute("data-category"));
             }, false);
         }
+    }
 
+    function addDateListeners() {
         for (var j = 0; j < dates.length; j++) {
-          dates[j].addEventListener("mousedown", function() {
-              convertTime(this);
-          }, false);
+            dates[j].addEventListener("mouseover", function() {
+                convertTime(this);
+            }, false);
         }
     }
 
@@ -75,5 +77,6 @@ window.onload = function() {
     }
 
     insertDataType();
-    addListeners();
+    addBulletListeners();
+    addDateListeners();
 }
