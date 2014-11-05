@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
 /* -------------------------------- 
 
 Primary style
@@ -16,9 +18,10 @@ html * {
 
 body {
   font-size: 100%;
-  font-family: "Droid Serif", serif;
+  /*font-family: "Droid Serif", serif;*/
   color: #7f8c97;
-  background-color: #e9f0f5;
+  background: url("../img/bg.png");
+  /*background-color: #f1ebeb;*/
 }
 
 a {
@@ -68,31 +71,40 @@ Main components
 
 -------------------------------- */
 nav {
-    background: red;
+    border-bottom: 2px solid gray;
+    background: #CACACA;
     position: fixed;
     width: 100%;
     z-index: 100;
     top: 0;
     left: 0;
     padding: 5px;
+    box-shadow: 0px 5px 10px #888888;
 }
 
 nav a {
-    font-size: 1.5em;
-    padding: 5px;
+    font-size: 1.1em;
+    padding: 5px 10px;
     color: white;
+    font-weight: bold;
 }
 
 header {
   height: 200px;
   line-height: 200px;
   text-align: center;
-  background: #303e49;
+  /*background: #5CCEEE;*/
+  background: #B2D1E5;
+  border-bottom: 4px solid #24C0EB;
+  box-shadow: 0px 2px 5px #CACACA;
 }
+
 header h1 {
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
+  color: #fff;
+  text-shadow: 4px 4px #6FB7E9;
+  font-family: "Lobster", cursive;
+  font-size: 24px;
+  font-size: 6.5rem;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -102,7 +114,7 @@ header h1 {
   }
   header h1 {
     font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 6.5rem;
   }
 }
 
@@ -179,14 +191,21 @@ header h1 {
   margin-left: -12px;
   margin-top: -12px;
 }
+
+.timeline-img.blue {
+    background: #11E3FF;
+}
 .timeline-img.green {
-  background: #75ce66;
+    background: #43FE00;
 }
 .timeline-img.red {
-  background: #c03b44;
+    background: #FE2777;
 }
 .timeline-img.yellow {
-  background: #f0ca45;
+    background: #FFBB07;
+}
+.timeline-img.blue {
+  background: #2934d4;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -216,7 +235,7 @@ header h1 {
   background: white;
   border-radius: 0.25em;
   padding: 1em;
-  box-shadow: 0 3px 0 #d7e4ed;
+  box-shadow: 0 5px 15px #ababab;
 }
 .timeline-content:after {
   content: "";
