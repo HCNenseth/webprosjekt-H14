@@ -26,6 +26,17 @@
                      "alternative": "Makes the Internet really boring"}
                  ]
                 },
+                {"question" : "Name the first public packet data service:",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": false,
+                     "alternative": "Kazzaa"},
+                    {"key": true,
+                     "alternative": "TeleNet"},
+                    {"key": false,
+                     "alternative": "NAPSTER"}
+                 ]
+                },
                 {"question" : "Which if the following is a feature of Web 1.0?",
                  "image": "static/img/quiz/tim_oreilly.jpg",
                  "alternatives" : [
@@ -37,6 +48,7 @@
                      "alternative": "Social networking"}
                  ]
                 }
+
             ]
         }
     }},
@@ -44,7 +56,7 @@
             "levels" : {
                 "easy" : [
                     {"question" : "Who created the first email program to work over a distributed network?",
-                     "image": "static/img/quiz/web20.jpg",
+                     "image": "static/img/quiz/tomlinson.jpg",
                      "alternatives" : [
                         {"key": false,
                          "alternative": "Dale Dougherty"},
