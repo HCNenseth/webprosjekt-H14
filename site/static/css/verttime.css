@@ -188,6 +188,9 @@ header h1 {
 .timeline-img.yellow {
   background: #f0ca45;
 }
+.timeline-img.blue {
+  background: #2934d4;
+}
 
 @media only screen and (min-width: 1170px) {
   .timeline-img {
