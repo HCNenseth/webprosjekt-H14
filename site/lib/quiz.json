@@ -30,11 +30,11 @@
                  "image": "static/img/quiz/qmark.png",
                  "alternatives" : [
                     {"key": false,
-                     "alternative": "Kazzaa"},
+                     "alternative": "IRC"},
                     {"key": true,
                      "alternative": "TeleNet"},
                     {"key": false,
-                     "alternative": "NAPSTER"}
+                     "alternative": "Napster"}
                  ]
                 },
                 {"question" : "Which if the following is a feature of Web 1.0?",
