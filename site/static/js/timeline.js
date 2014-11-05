@@ -67,7 +67,13 @@ window.onload = function() {
         }
     }
 
+    function insertDataType(){
+      for(var i = 0; i < dates.length; i++)
+        {
+          dates[i].setAttribute("data-type", "human");
+        }
+    }
 
-
+    insertDataType();
     addListeners();
 }
