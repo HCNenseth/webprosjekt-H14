@@ -9,3 +9,4 @@ List of resources and inspiration
 * [Fontawsome](http://fontawesome.io/)
 * [Devicons](http://devdocs.io/)
 * [Timline W3C](http://www.w3.org/2005/01/timelines/timeline-2500x998.png)
+* [Color Palettes](http://www.color-hex.com/color-palettes/)
