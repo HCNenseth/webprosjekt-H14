@@ -258,6 +258,16 @@ header h1 {
 .timeline-content .read-more, .timeline-content .date {
   display: inline-block;
 }
+.timeline-content .delete {
+    position: absolute;
+    top: 4px;
+    right: -8px;
+    width: 25px;
+    height: 25px;
+    background: url("../img/icons/glyphicons_207_remove_4.png") no-repeat;
+    cursor: pointer;
+}
+
 .timeline-content p {
   margin: 1em 0;
   line-height: 1.6;
@@ -326,6 +336,11 @@ header h1 {
   }
   .timeline-block:nth-child(even) .timeline-content {
     float: right;
+  }
+  .timeline-block:nth-child(odd) .delete {
+    position: absolute;
+    top: 4px;
+    left: 2px;
   }
   .timeline-block:nth-child(even) .timeline-content::before {
     top: 24px;

@@ -8,19 +8,21 @@ window.onload = function() {
     var bullets = document.getElementsByClassName("timeline-img");
     var blocks = document.getElementsByClassName("timeline-block");
     var dates = document.getElementsByClassName("date");
+    var deletes = document.getElementsByClassName("delete");
     var state = false;
     var defaultLocation = "#timeline";
 
-    function hideBlocks(cat) {
+    function hideBlocks(obj) {
         if (state) {
             state = false;
             showAll();
         } else {
             state = true;
             window.location.href = defaultLocation;
+            var cat = obj.parentNode.getAttribute("data-category");
             for (var i = 0; i < blocks.length; i++) {
-                var thisCat = blocks[i].getAttribute("data-category");
-                if (thisCat != cat) {
+                var thatCat = blocks[i].getAttribute("data-category");
+                if (thatCat != cat) {
                     blocks[i].setAttribute("style", "display: none");
                 }
             }
@@ -56,7 +58,7 @@ window.onload = function() {
     function addBulletListeners() {
         for (var i = 0; i < bullets.length; i++) {
             bullets[i].addEventListener("mousedown", function() {
-                hideBlocks(this.getAttribute("data-category"));
+                hideBlocks(this);
             }, false);
         }
     }
@@ -69,6 +71,21 @@ window.onload = function() {
         }
     }
 
+    function addDeleteListeneres() {
+        for (var i = 0; i < deletes.length; i++) {
+            deletes[i].addEventListener("mousedown", function() {
+                this.parentNode.parentNode.setAttribute("style", "display:none");
+            }, false);
+        }
+    }
+
+    function insertDataCategory() {
+        for (var i = 0; i < bullets.length; i++) {
+            var classes = bullets[i].getAttribute("class").split(" ");
+            bullets[i].parentNode.setAttribute("data-category", classes.pop());
+        }
+    }
+
     function insertDataType(){
       for(var i = 0; i < dates.length; i++)
         {
@@ -77,6 +94,8 @@ window.onload = function() {
     }
 
     insertDataType();
+    insertDataCategory();
     addBulletListeners();
     addDateListeners();
+    addDeleteListeneres();
 }
