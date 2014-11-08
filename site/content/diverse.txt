@@ -1,0 +1,60 @@
+#--
+Year: 1969
+Title: The C programming language.
+Text: Dennis Ritchie and Ken Thompson develops the C programming language. C is an ALGOL
+fashioned language.
+#--
+Year: 1969
+Title: UNIX
+Text: Ken Thompson and Dennis Ritchie (including others) develops at AT&Ts Bell Labs the
+first version of the UNIX operating system for the PDP-11 system.
+#--
+Year: 1978
+Title: The beginning of the C++ programming language.
+Text: The Danish computer scientist Bjarne Stroustrup began developing C++ (then called
+"C with classes").
+#--
+Year: 1980
+Title: Usenet gets established
+Text: Tom Truscott and Jim Ellis establishes Usenet. Users read and post messages to one
+or more categories, known as newsgroups.
+#--
+Year: 1985
+Title: GNU Manifesto
+Text: Richard Stallman published the GNU Manifesto, which outlines his motivation for
+the creation of a free operating system; GNU.
+#--
+Year: 1987
+Title: Perl programming language.
+Text: Larry Wall develops the first version of the Perl programming language. Perl was
+originally developed as a general-purpose Unix scripting language.
+#--
+Year: 1991
+Title: GPL version 2
+Text: GNU GPL (General Public License) version 2 releases.
+#--
+Year: 1991
+Title: The Linux kernel
+Text: Linus Torvalds releases the initial version of the Linux kernel, first named the
+freax, but renamed Linux by Ari Lemmke. Torvalds had initially considered the name Linux,
+but dismissed it too egotistical.
+#--
+Year: 1991
+Title: PGP
+Text: Phil Zimmerman releases the PGP (Pretty Good Privacy) encryption package. PGP was
+an easy way for the masses to encrypt communication using RSA or DSA algorithms.
+#--
+Year: 1994
+Title: W3C
+Text: Tim Berners-Lee founds W3C (The World Wide Web Consortium) after he leaves CERN in
+October 1994.
+#--
+Year: 1994
+Title: CSS
+Text: CSS (Cascading Style Sheets) gets proposed by Håkon Wium Lie. The CSS 1 specification
+was completed in 1996.
+#--
+Year: 1995
+Title: Java sees first light of day.
+Text: Sun Microsystems headed by James Gosling releases the first public implementation
+of Java 1.0. It promised "WORA" (Write Once, Run Anywhere).
