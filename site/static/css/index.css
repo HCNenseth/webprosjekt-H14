@@ -39,6 +39,16 @@ h1, h2 {
   font-weight: bold;
 }
 
+noscript {
+    display: block;
+    background: salmon;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
 .left {
     float: left;
 }
