@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 100%;
+  /*font-family: "Droid Serif", serif;*/
+  color: #7f8c97;
+  background: url("../img/bg.png");
+  /*background-color: #f1ebeb;*/
+}
+
+a {
+  color: #acb7c0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+noscript {
+    display: block;
+    background: salmon;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+.left { float: left; }
+
+.right { float: right; }
