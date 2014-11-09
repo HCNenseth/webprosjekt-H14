@@ -7,11 +7,10 @@ html {
 body {
     margin: 0 auto;
     font-size: 100%;
-    background: rgba(3, 13, 24, 0.96);
 }
 
 .shadow {
-    box-shadow: 10px 10px 5px rgba(3, 13, 35, 0.96);
+    box-shadow: 0 5px 15px #ababab;
 }
 
 .correct {
@@ -28,23 +27,24 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
+    width: 70%;
+    height: 95%;
     position: fixed;
-    width: 50%;
-    height: 70%;
-    background: #f0eee1;
-    border: 4px solid #f1eaba;
+    background: white;
+    border-radius: 0.25em;
     padding: 20px;
 }
 
 #curtain {
+    display: none;
     margin: auto;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
-    position: fixed;
-    width: 50%;
-    height: 70%;
+    position:fixed;
+    width: 68%;
+    height: 93%;
     z-index: 10;
 }
 
@@ -73,10 +73,20 @@ body {
     margin: 5px 0px;
     width: 100%;
     font-size:1em;
+    background: #f4f9fb;
+    border: 1px solid #f7fbfc;
+    border-radius: 0.25em;
+    box-shadow: 0 1px 3px #ababab;
 }
 
 #quizbox form fieldset {
     border: none;
+}
+
+#quizlegend {
+    font-size: 1.1em;
+    padding-bottom: 10px;
+    display: block;
 }
 
 #quizbox img.quizimage {
@@ -85,15 +95,33 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#quizbox li.question .questiontext {
+    font-weight: bold;
+    padding: 10px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+#quizbox li.question .alternatives {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
 }
 
 #quizbox li.question li {
-    width: 50%;
-    float: left;
+    margin-left: 10px;
+    padding: 10px 0px;
 }
 
 #result {
     height: 100%;
+}
+
+#result h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
 }
 
 
@@ -105,16 +133,20 @@ body {
     and (orientation: portrait)
 {
     body {
-        background: rgba(3, 100, 24, 0.96);
     }
 
     #quizbox {
         width: 100%;
-        height: 70%;
+        height: 95%;
         padding: 10px;
         line-height: 1.4;
     }
-    
+
+    #curtain {
+        width: 95%;
+        height: 95%;
+    }
+
     #quizbox img.quizimage {
         height: 150px;
     }
@@ -125,7 +157,7 @@ body {
 
     #quizbox input[type="button"],
     #quizbox input[type="submit"] {
-        width: 95%;
+        width: 100%;
     }
 }
 
@@ -144,6 +176,11 @@ body {
         line-height: 1.4;
     }
 
+    #curtain {
+        width: 95%;
+        height: 95%;
+    }
+
     #quizbox img.quizimage {
         height: 150px;
     }
@@ -155,6 +192,10 @@ body {
 
     #quizbox input[type="button"],
     #quizbox input[type="submit"] {
-        width: 95%;
+        width: 100%;
     }
+}
+@charset "UTF-8";
+
+@media screen and (max-device-width: 800px) {
 }

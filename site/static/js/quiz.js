@@ -77,7 +77,8 @@ var quiz = {
     buttonGen: function(type, value, name, func) {
         var element = document.createElement("input");
         element.setAttribute("type", type);
-        element.setAttribute("value", value);
+        element.setAttribute("class", value);
+        element.setAttribute("value", this.capitalize(value));
         element.setAttribute("name", name);
         element.setAttribute("onclick", func);
         return element;
@@ -99,7 +100,7 @@ var quiz = {
         var image = document.createElement("img");
         var question = document.createElement("p");
         var nextButton = this.buttonGen("button",
-                                        "Next",
+                                        "next",
                                         "next"+qID,
                                         "quiz.showNextQuestion('"+qID+"','"+max+"')");
         var submitButton = this.buttonGen("button",
@@ -178,7 +179,7 @@ var quiz = {
         var banner = document.createElement("h1");
 
         /* Show the curtain */
-        this.curtain.removeAttribute("style");
+        this.curtain.style.display = "block";
 
         /* Give it color and text */
         if (bool) {
@@ -192,8 +193,8 @@ var quiz = {
         }
 
         /* Append an event listener for removing it */
-        this.curtain.addEventListener("click", function(){
-            this.setAttribute("style", "display: none");
+        this.curtain.addEventListener("click", function() {
+            this.style.display = "none";
             this.removeChild(banner);
         }, false);
     },
