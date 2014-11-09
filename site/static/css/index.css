@@ -341,6 +341,7 @@ header h1 {
     position: absolute;
     top: 4px;
     left: 2px;
+    display: none;
   }
   .timeline-block:nth-child(even) .timeline-content::before {
     top: 24px;
