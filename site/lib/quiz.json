@@ -99,9 +99,9 @@
                  "image": "static/img/quiz/qmark.png",
                  "alternatives" : [
                     {"key": true,
-                     "alternative": "Google in 1994"},
-                    {"key": false,
                      "alternative": "Yahoo in 1994"},
+                    {"key": false,
+                     "alternative": "Google in 1994"},
                     {"key": false,
                      "alternative": "Yahoo in 1995"},
                     {"key": false,
