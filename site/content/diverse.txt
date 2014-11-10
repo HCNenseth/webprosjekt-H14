@@ -52,6 +52,46 @@ Who was first, Google or Yahoo!?
 -Yahoo in 1995
 -Google in 1995
 
+Question 5: 
+When was Facebook founded?
+-2004
+-2005
+-2006
+-2007
+
+At which university, did Mark Zuckerberg invent Facebook?
+-Harvard university
+-Massachusetts institute of technology (MIT)
+-University of California, Berkeley
+-California institute of technology (Caltech)
+
+Question 6: 
+Who can edit Wikipedia?
+-Users
+-Anyone
+-Administrators
+-No one
+
+Which of the following websites is NOT a parody of Wikipedia?
+-Notpedia
+-Stupidedia
+-Encyclopedia Dramatica
+-Bigipedia
+
+Question 7: 
+How many characters can you write in a Twitter post?
+-120
+-100
+-160
+-140
+
+How many percent of the Twitter accounts have never tweeted?
+-44%
+-34%
+-54%
+-64%
+
+
 
 #--
 Year: 1969
