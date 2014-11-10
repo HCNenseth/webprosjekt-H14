@@ -76,7 +76,6 @@ window.onload = function() {
             deletes[i].addEventListener("mousedown", function() {
                 this.parentNode.parentNode.setAttribute("style", "display:none");
             }, false);
-            deletes[i].style.display = "block";
         }
     }
 

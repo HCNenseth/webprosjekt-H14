@@ -205,6 +205,9 @@ header h1 {
     right: -8px;
     width: 25px;
     height: 25px;
+}
+
+.timeline-content .delete:hover {
     background: url("../img/icons/glyphicons_207_remove_4.png") no-repeat;
     cursor: pointer;
 }
@@ -282,7 +285,6 @@ header h1 {
     position: absolute;
     top: 4px;
     left: 2px;
-    display: none;
   }
   .timeline-block:nth-child(even) .timeline-content::before {
     top: 24px;
