@@ -2,53 +2,112 @@
     { "Web" : {
         "levels" : {
             "easy" : [
-                {"question" : "Who coined the term Web 2.0",
-                 "image": "static/img/quiz/web20.jpg",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "Dale Dougherty"},
-                    {"key": false,
-                     "alternative": "Tim O'Reilly"},
-                    {"key": false,
-                     "alternative": "Steve Jobs"},
-                    {"key": false,
-                     "alternative": "Bill Gates"}
-                 ]
-                },
-                {"question" : "According to Tim O'Reilly, the Web 2.0 philosophy:",
+                {"question" : "What was the first video that was uploaded to YouTube about?",
                  "image": "static/img/quiz/qmark.png",
                  "alternatives" : [
-                    {"key": false,
-                     "alternative": "Sacrifices users security"},
                     {"key": true,
-                     "alternative": "Democratizes the Web"},
+                     "alternative": "A man visiting the zoo"},
                     {"key": false,
-                     "alternative": "Makes the Internet really boring"}
+                     "alternative": "A woman visiting the museum"},
+                    {"key": false,
+                     "alternative": "A boy visiting the park"},
+                    {"key": false,
+                     "alternative": "A girl visiting the aquarium"}
                  ]
                 },
-                {"question" : "Name the first public packet data service:",
+                {"question" : "What was the 'first website'?",
                  "image": "static/img/quiz/qmark.png",
                  "alternatives" : [
-                    {"key": false,
-                     "alternative": "IRC"},
                     {"key": true,
-                     "alternative": "TeleNet"},
+                     "alternative": "CERN's website"},
                     {"key": false,
-                     "alternative": "Napster"}
+                     "alternative": "MTV"},
+                    {"key": false,
+                     "alternative": "ACME's website"},
+                    {"key": false,
+                     "alternative": "Fermilab's website"}
                  ]
                 },
-                {"question" : "Which if the following is a feature of Web 1.0?",
-                 "image": "static/img/quiz/tim_oreilly.jpg",
+                {"question" : "What did Amazon sell at first?",
+                 "image": "static/img/quiz/qmark.png",
                  "alternatives" : [
                     {"key": true,
-                     "alternative": "Static Web sites"},
+                     "alternative": "Books"},
                     {"key": false,
-                     "alternative": "Interactive Web sites"},
+                     "alternative": "Games"},
                     {"key": false,
-                     "alternative": "Social networking"}
+                     "alternative": "DVDs"},
+                    {"key": false,
+                     "alternative": "Clothing"}
+                 ]
+                },
+                {"question" : "What was Yahoo! first called?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "Jerry and David's guide to the World Wide Web"},
+                    {"key": false,
+                     "alternative": "Jerry and David's guide to the Galaxy"},
+                    {"key": false,
+                     "alternative": "Yipee"},
+                    {"key": false,
+                     "alternative": "Babelfish"}
                  ]
                 }
-
+            ],
+            "hard" : [
+                {"question" : "What was, according to the man, “very cool”, in the first YouTube video?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "That the elephants had really long trunks"},
+                    {"key": false,
+                     "alternative": "That the giraffes had really long necks"},
+                    {"key": false,
+                     "alternative": "That the monkeys were reading the paper"},
+                    {"key": false,
+                     "alternative": "That the penguins were swimming really fast"}
+                 ]
+                },
+                {"question" : "What was the original project that led to CERN's website",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "ENQUIRE"},
+                    {"key": false,
+                     "alternative": "MICROSOFT"},
+                    {"key": false,
+                     "alternative": "XANDU"},
+                    {"key": false,
+                     "alternative": "DATABASE"}
+                 ]
+                },
+                {"question" : "What was Amazon originally called?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "Cadabra"},
+                    {"key": false,
+                     "alternative": "Abra"},
+                    {"key": false,
+                     "alternative": "Alakazam"},
+                    {"key": false,
+                     "alternative": "Amazonas"}
+                 ]
+                },
+                {"question" : "Who was first, Google or Yahoo! ?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "Google in 1994"},
+                    {"key": false,
+                     "alternative": "Yahoo in 1994"},
+                    {"key": false,
+                     "alternative": "Yahoo in 1995"},
+                    {"key": false,
+                     "alternative": "Google in 1995"}
+                 ]
+                }
             ]
         }
     }},
