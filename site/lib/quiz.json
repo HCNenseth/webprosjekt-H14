@@ -53,6 +53,45 @@
                     {"key": false,
                      "alternative": "Babelfish"}
                  ]
+                },
+                {"question" : "When was Facebook invented?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "2004"},
+                    {"key": false,
+                     "alternative": "2005"},
+                    {"key": false,
+                     "alternative": "2006"},
+                    {"key": false,
+                     "alternative": "2007"}
+                 ]
+                },
+                {"question" : "Who can edit Wikipedia",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "Users"},
+                    {"key": false,
+                     "alternative": "Anyone"},
+                    {"key": false,
+                     "alternative": "Administrators"},
+                    {"key": false,
+                     "alternative": "No one"}
+                 ]
+                },
+                {"question" : "How many characters can you write in a Twitter post?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "120"},
+                    {"key": false,
+                     "alternative": "100"},
+                    {"key": false,
+                     "alternative": "160"},
+                    {"key": false,
+                     "alternative": "140"}
+                 ]
                 }
             ],
             "hard" : [
@@ -106,6 +145,45 @@
                      "alternative": "Yahoo in 1995"},
                     {"key": false,
                      "alternative": "Google in 1995"}
+                 ]
+                },
+               {"question" : "At which university, did Mark Zuckerberg invent Facebook?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "Harvard university"},
+                    {"key": false,
+                     "alternative": "Massachusetts institute of technology (MIT)"},
+                    {"key": false,
+                     "alternative": "University of California, Berkeley"},
+                    {"key": false,
+                     "alternative": "California institute of technology (Caltech)"}
+                 ]
+                },
+                {"question" : "Which of the following websites is NOT a parody of Wikipedia?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "Notpedia"},
+                    {"key": false,
+                     "alternative": "Stupidedia"},
+                    {"key": false,
+                     "alternative": "Encyclopedia Dramatica"},
+                    {"key": false,
+                     "alternative": "Bigipedia"}
+                 ]
+                },
+                {"question" : "How many percent of the Twitter accounts have never tweeted?",
+                 "image": "static/img/quiz/qmark.png",
+                 "alternatives" : [
+                    {"key": true,
+                     "alternative": "44%"},
+                    {"key": false,
+                     "alternative": "34%"},
+                    {"key": false,
+                     "alternative": "54%"},
+                    {"key": false,
+                     "alternative": "64%"}
                  ]
                 }
             ]
