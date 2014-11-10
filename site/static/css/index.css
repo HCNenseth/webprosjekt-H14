@@ -269,7 +269,7 @@ header h1 {
   }
   .timeline-content .date {
     position: absolute;
-    width: 100%;
+    /*width: 100%;*/
     left: 122%;
     top: 6px;
     font-size: 16px;
