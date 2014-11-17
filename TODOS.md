@@ -9,4 +9,5 @@ I grove trekk:
 * Ikoner og kategorifarger - Torbjørn.
 * Header, funksjonalitet - Alexander.
 * Footer (innhold) - Hans Christian.
+* W3C, CSS, JSLint, og Tingtun validering - Alexander.
 * Testing - Alle.
