@@ -4,9 +4,9 @@ I grove trekk:
 
 * Sluttrapport - Hans Petter.
 * Innhold Timeline - Torbjørn.
-* Innhold Quiz.
-* Farger (individualisering).
-* Ikoner og kategorifarger.
-* Header, funksjonalitet.
+* Innhold Quiz - Hans Christian m.m (gjennom *.txt filer)
+* Farger (individualisering) - Alexander.
+* Ikoner og kategorifarger - Torbjørn.
+* Header, funksjonalitet - Alexander.
 * Footer (innhold) - Hans Christian.
 * Testing - Alle.
