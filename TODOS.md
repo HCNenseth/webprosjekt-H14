@@ -8,5 +8,5 @@ I grove trekk:
 * Farger (individualisering).
 * Ikoner og kategorifarger.
 * Header, funksjonalitet.
-* Footer (innhold).
-* Testing.
+* Footer (innhold) - Hans Christian.
+* Testing - Alle.
