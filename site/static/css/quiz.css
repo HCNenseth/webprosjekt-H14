@@ -1,3 +1,10 @@
+/**
+ * Quiz CSS file.
+ * Mainly for layout.
+ */
+
+@import url(switch.css);
+
 @charset "UTF-8";
 
 html {
