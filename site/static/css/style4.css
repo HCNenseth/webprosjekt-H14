@@ -1,0 +1,98 @@
+/**
+ * Style file #2;
+ */
+
+body {
+    color: #7f8c97;
+    background: #cee9ea;
+    background: url("../img/lightpattern.png");
+}
+
+a {
+    color: #acb7c0;
+}
+
+nav {
+    background: #bd2a2a;
+}
+
+nav a {
+    color: white;
+}
+
+header {
+    background: #a93030;
+    border-bottom: 4px solid #e71212;
+    box-shadow: 0px 5px 5px #d3d3d3;
+}
+
+header h1 {
+    color: #fff;
+    text-shadow: 4px 4px #dd3333;
+}
+
+#timeline::before {
+    background: #adacac;
+}
+
+.timeline-img {
+    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-img:hover {
+    box-shadow: 0 0 0 6px gray, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 6px 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.timeline-img.blue {
+    background: #11E3FF;
+}
+.timeline-img.green {
+    background: #43FE00;
+}
+.timeline-img.red {
+    background: #FE2777;
+}
+.timeline-img.yellow {
+    background: #FFBB07;
+}
+.timeline-img.blue {
+    background: #2934d4;
+}
+.timeline-img.blue {
+    background: #2934d4;
+}
+
+.timeline-content {
+    background: white;
+    box-shadow: 0 5px 15px #ababab;
+}
+
+.timeline-content h2 {
+    color: #303e49;
+}
+
+.timeline-content .delete:hover {
+    background: url("../img/icons/glyphicons_207_remove_4.png") no-repeat;
+}
+
+.timline-content .read-more {
+    background: #acb7c0;
+    color: white;
+}
+
+.no-touch .timeline-content .read-more:hover {
+    background-color: #bac4cb;
+}
+
+.timeline-content::before {
+    border-right: 7px solid white;
+}
+
+footer {
+    background: #a93030;
+    border-top: 4px solid #e71212;
+}
+
+footer p {
+    color: #fefefe;
+}
