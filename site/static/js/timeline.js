@@ -92,10 +92,10 @@ window.onload = function() {
           dates[i].setAttribute("data-type", "human");
         }
     }
-
+    
     insertDataType();
     insertDataCategory();
     addBulletListeners();
     addDateListeners();
     addDeleteListeneres();
-}
+};
