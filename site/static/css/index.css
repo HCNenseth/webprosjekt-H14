@@ -128,7 +128,7 @@ header h1 {
 
 .timeline-img img {
     display: block;
-    width: 24px;
+    width: auto;
     height: 24px;
     position: relative;
     left: 50%;
