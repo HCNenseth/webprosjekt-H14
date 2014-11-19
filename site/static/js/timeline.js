@@ -3,14 +3,22 @@
  */
 
 
-window.onload = function() {
+window.onload = function () {
+    "use strict";
 
-    var bullets = document.getElementsByClassName("timeline-img");
-    var blocks = document.getElementsByClassName("timeline-block");
-    var dates = document.getElementsByClassName("date");
-    var deletes = document.getElementsByClassName("delete");
-    var state = false;
-    var defaultLocation = "#timeline";
+    var bullets = document.getElementsByClassName("timeline-img"),
+        blocks = document.getElementsByClassName("timeline-block"),
+        dates = document.getElementsByClassName("date"),
+        deletes = document.getElementsByClassName("delete"),
+        state = false,
+        defaultLocation = "#timeline";
+
+    function showAll(callback) {
+        for (var i = 0; i < blocks.length; i++) {
+            blocks[i].removeAttribute("style");
+        }
+        callback();
+    }
 
     function hideBlocks(obj) {
         if (state) {
@@ -27,13 +35,6 @@ window.onload = function() {
                 }
             }
         }
-    }
-
-    function showAll(callback) {
-        for (var i = 0; i < blocks.length; i++) {
-            blocks[i].removeAttribute("style");
-        }
-        callback();
     }
 
     function convertTime(date){
