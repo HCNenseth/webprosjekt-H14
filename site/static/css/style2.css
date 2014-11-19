@@ -1,9 +1,10 @@
 /**
- * Style file #1
+ * Style file #2;
  */
 
 body {
     color: #7f8c97;
+    background: #cee9ea;
     background: url("../img/bg.png");
 }
 
@@ -12,10 +13,8 @@ a {
 }
 
 nav {
-    border-bottom: 2px solid gray;
-    background: #CACACA;
-    box-shadow: 0px 5px 10px #888888;
-    border-bottom: 2px solid gray;
+    background: #8bb3b4;
+    background: #445c6d;
 }
 
 nav a {
@@ -23,9 +22,9 @@ nav a {
 }
 
 header {
-    background: #B2D1E5;
-    border-bottom: 4px solid #24C0EB;
-    box-shadow: 0px 5px 5px #CACACA;
+    background: #445c6d;
+    border-bottom: 4px solid #879eb0;
+    box-shadow: 0px 5px 5px #d3d3d3;
 }
 
 header h1 {
@@ -34,7 +33,7 @@ header h1 {
 }
 
 #timeline::before {
-    background: #d7e4ed;
+    background: #879eb0;
 }
 
 .timeline-img {
@@ -91,10 +90,10 @@ header h1 {
 }
 
 footer {
-    background: #B2D1E5;
-    border-top: 4px solid #24C0EB;
+    background: #445c6d;
+    border-top: 4px solid #879eb0;
 }
 
 footer p {
-    color: white;
+    color: #d3d3d3;
 }
