@@ -293,7 +293,7 @@ var quiz = {
         homePage.appendChild(this.buttonGen("button",
                     "Back to the main page",
                     "",
-                    "window.location = '/'"));
+                    "window.location = location.href.substring(0, location.href.indexOf('quiz'))+'index.html'"));
 
         actions.appendChild(newQuiz);
         actions.appendChild(homePage);
