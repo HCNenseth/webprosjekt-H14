@@ -371,11 +371,11 @@
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
-                                    "key": true,
+                                    "key": false,
                                     "alternative": "Science experiment at Cornell University"
                                 },
                                 {
-                                    "key": false,
+                                    "key": true,
                                     "alternative": "A pot of coffee at Cambridge University"
                                 },
                                 {
@@ -451,6 +451,20 @@
                                 {
                                     "key": false,
                                     "alternative": "Clothing"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What does the arrow in the amazon logo stand for?",
+                            "image": "static/img/quiz/amazon.jpg",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "A->Z Online Store"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "Everything from a to z"
                                 }
                             ]
                         }
