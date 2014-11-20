@@ -1,0 +1,16 @@
+/**
+ * Category colors
+ */
+
+.timeline-img.blue {
+    background: #6ecae5;
+}
+.timeline-img.green {
+    background: #ade747;
+}
+.timeline-img.red {
+    background: #be66dd;
+}
+.timeline-img.yellow {
+    background: #f0bf26;
+}
