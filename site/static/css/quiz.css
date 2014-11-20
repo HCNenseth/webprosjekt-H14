@@ -97,8 +97,8 @@ body {
 }
 
 #quizbox img.quizimage {
-    height: 200px;
-    width: auto;
+    /*height: 200px;*/
+    /*width: auto;*/
     display: block;
     margin-left: auto;
     margin-right: auto;
