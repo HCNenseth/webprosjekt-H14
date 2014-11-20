@@ -6,7 +6,7 @@ Innen 2014-11-21 (Fredag)
 * Ikoner og kategorifarger - Torbjørn.
 * Header, funksjonalitet - Alexander.
 * Footer (innhold) - Hans Christian.
-* W3C, CSS, JSLint, og Tingtun validering - Alexander.
+* ~~W3C, CSS, JSLint, og Tingtun validering - Alexander.~~
 * ~~Farger (individualisering) - Alexander.~~ **Utkast ferdig**
 
 Innen 2014-11-26 (Onsdag)
