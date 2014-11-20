@@ -27,8 +27,8 @@ header {
 }
 
 header h1 {
-    color: #fff;
-    text-shadow: 4px 4px #dd3333;
+    color: #4a90d9;
+    text-shadow: 4px 4px #fff;
 }
 
 #timeline::before {
