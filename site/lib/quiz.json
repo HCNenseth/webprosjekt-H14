@@ -119,7 +119,7 @@
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
-                                    "key": true,
+                                    "key": false,
                                     "alternative": "120"
                                 },
                                 {
@@ -131,7 +131,7 @@
                                     "alternative": "160"
                                 },
                                 {
-                                    "key": false,
+                                    "key": true,
                                     "alternative": "140"
                                 }
                             ]
@@ -139,7 +139,7 @@
                     ],
                     "hard": [
                         {
-                            "question": "What was the original project that led to CERN's website",
+                            "question": "What was the original project that led to CERN's website?",
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
