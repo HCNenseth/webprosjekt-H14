@@ -1,259 +1,462 @@
-{ "categories" : [
-    { "Web" : {
-        "levels" : {
-            "easy" : [
-                {"question" : "What was the first video that was uploaded to YouTube about?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "A man visiting the zoo"},
-                    {"key": false,
-                     "alternative": "A woman visiting the museum"},
-                    {"key": false,
-                     "alternative": "A boy visiting the park"},
-                    {"key": false,
-                     "alternative": "A girl visiting the aquarium"}
-                 ]
-                },
-                {"question" : "What was the 'first website'?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "CERN's website"},
-                    {"key": false,
-                     "alternative": "MTV"},
-                    {"key": false,
-                     "alternative": "ACME's website"},
-                    {"key": false,
-                     "alternative": "Fermilab's website"}
-                 ]
-                },
-                {"question" : "What did Amazon sell at first?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "Books"},
-                    {"key": false,
-                     "alternative": "Games"},
-                    {"key": false,
-                     "alternative": "DVDs"},
-                    {"key": false,
-                     "alternative": "Clothing"}
-                 ]
-                },
-                {"question" : "What was Yahoo! first called?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "Jerry and David's guide to the World Wide Web"},
-                    {"key": false,
-                     "alternative": "Jerry and David's guide to the Galaxy"},
-                    {"key": false,
-                     "alternative": "Yipee"},
-                    {"key": false,
-                     "alternative": "Babelfish"}
-                 ]
-                },
-                {"question" : "When was Facebook invented?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "2004"},
-                    {"key": false,
-                     "alternative": "2005"},
-                    {"key": false,
-                     "alternative": "2006"},
-                    {"key": false,
-                     "alternative": "2007"}
-                 ]
-                },
-                {"question" : "Who can edit Wikipedia",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "Users"},
-                    {"key": false,
-                     "alternative": "Anyone"},
-                    {"key": false,
-                     "alternative": "Administrators"},
-                    {"key": false,
-                     "alternative": "No one"}
-                 ]
-                },
-                {"question" : "How many characters can you write in a Twitter post?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "120"},
-                    {"key": false,
-                     "alternative": "100"},
-                    {"key": false,
-                     "alternative": "160"},
-                    {"key": false,
-                     "alternative": "140"}
-                 ]
+{
+    "categories": [
+        {
+            "Web": {
+                "levels": {
+                    "easy": [
+                        {
+                            "question": "What was the first video that was uploaded to YouTube about?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "A man visiting the zoo"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "A woman visiting the museum"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "A boy visiting the park"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "A girl visiting the aquarium"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What was the 'first website'?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "CERN's website"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "MTV"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "ACME's website"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Fermilab's website"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What was Yahoo! first called?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Jerry and David's guide to the World Wide Web"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Jerry and David's guide to the Galaxy"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Yipee"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Babelfish"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "When was Facebook invented?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "2004"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "2005"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "2006"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "2007"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Who can edit Wikipedia?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Users"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Anyone"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Administrators"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "No one"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "How many characters can you write in a Twitter post?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "120"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "100"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "160"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "140"
+                                }
+                            ]
+                        }
+                    ],
+                    "hard": [
+                        {
+                            "question": "What was the original project that led to CERN's website",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "ENQUIRE"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "MICROSOFT"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "XANDU"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "DATABASE"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What was Amazon originally called?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Cadabra"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Abra"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Alakazam"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Amazonas"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Who was first, Google or Yahoo! ?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Yahoo in 1994"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Google in 1994"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Yahoo in 1995"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Google in 1995"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "At which university, did Mark Zuckerberg invent Facebook?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Harvard university"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Massachusetts institute of technology (MIT)"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "University of California, Berkeley"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "California institute of technology (Caltech)"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following websites is NOT a parody of Wikipedia?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Notpedia"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Stupidedia"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Encyclopedia Dramatica"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Bigipedia"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "How many percent of the Twitter accounts have never tweeted?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "44%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "34%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "54%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "64%"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Who sent the first email?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Professor Peter Kirstein at Univeristy College London"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Ray Tomlinson at BBN"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Ray Bradbury"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "C.S. Lewis"
+                                }
+                            ]
+                        }
+                    ]
                 }
-            ],
-            "hard" : [
-                {"question" : "What was, according to the man, “very cool”, in the first YouTube video?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "That the elephants had really long trunks"},
-                    {"key": false,
-                     "alternative": "That the giraffes had really long necks"},
-                    {"key": false,
-                     "alternative": "That the monkeys were reading the paper"},
-                    {"key": false,
-                     "alternative": "That the penguins were swimming really fast"}
-                 ]
-                },
-                {"question" : "What was the original project that led to CERN's website",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "ENQUIRE"},
-                    {"key": false,
-                     "alternative": "MICROSOFT"},
-                    {"key": false,
-                     "alternative": "XANDU"},
-                    {"key": false,
-                     "alternative": "DATABASE"}
-                 ]
-                },
-                {"question" : "What was Amazon originally called?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "Cadabra"},
-                    {"key": false,
-                     "alternative": "Abra"},
-                    {"key": false,
-                     "alternative": "Alakazam"},
-                    {"key": false,
-                     "alternative": "Amazonas"}
-                 ]
-                },
-                {"question" : "Who was first, Google or Yahoo! ?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "Yahoo in 1994"},
-                    {"key": false,
-                     "alternative": "Google in 1994"},
-                    {"key": false,
-                     "alternative": "Yahoo in 1995"},
-                    {"key": false,
-                     "alternative": "Google in 1995"}
-                 ]
-                },
-               {"question" : "At which university, did Mark Zuckerberg invent Facebook?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "Harvard university"},
-                    {"key": false,
-                     "alternative": "Massachusetts institute of technology (MIT)"},
-                    {"key": false,
-                     "alternative": "University of California, Berkeley"},
-                    {"key": false,
-                     "alternative": "California institute of technology (Caltech)"}
-                 ]
-                },
-                {"question" : "Which of the following websites is NOT a parody of Wikipedia?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "Notpedia"},
-                    {"key": false,
-                     "alternative": "Stupidedia"},
-                    {"key": false,
-                     "alternative": "Encyclopedia Dramatica"},
-                    {"key": false,
-                     "alternative": "Bigipedia"}
-                 ]
-                },
-                {"question" : "How many percent of the Twitter accounts have never tweeted?",
-                 "image": "static/img/quiz/qmark.png",
-                 "alternatives" : [
-                    {"key": true,
-                     "alternative": "44%"},
-                    {"key": false,
-                     "alternative": "34%"},
-                    {"key": false,
-                     "alternative": "54%"},
-                    {"key": false,
-                     "alternative": "64%"}
-                 ]
-                },
-                {"question" : "Who sent the first email?",
-                     "image": "static/img/quiz/qmark.png",
-                     "alternatives" : [
-                        {"key": true,
-                         "alternative": "Professor Peter Kirstein at Univeristy College London"},
-                        {"key": false,
-                         "alternative": "Ray Tomlinson at BBN"},
-                        {"key": false,
-                         "alternative": "Ray Bradbury"},
-                        {"key": false,
-                         "alternative": "C.S. Lewis"}
-                     ]
-                }
-            ]
-        }
-    }},
-    { "History of the Web" : {
-            "levels" : {
-                "easy" : [
-                    {"question" : "Who created the first email program to work over a distributed network?",
-                     "image": "static/img/quiz/tomlinson.jpg",
-                     "alternatives" : [
-                        {"key": false,
-                         "alternative": "Dale Dougherty"},
-                        {"key": false,
-                         "alternative": "Tim O'Reilly"},
-                        {"key": false,
-                         "alternative": "Steve Jobs"},
-                        {"key": true,
-                         "alternative": "Ray Tomlinson"}
-                     ]
-                    },
-                    {"question" : "Who coined the term `surfing` the internet in 1992?",
-                     "image": "static/img/quiz/qmark.png",
-                     "alternatives" : [
-                        {"key": false,
-                         "alternative": "Professor Hawking at Cambridge Universety"},
-                        {"key": true,
-                         "alternative": "Librerian Jean Armour Polly"},
-                        {"key": false,
-                         "alternative": "Unknown Australian surfer"}
-                     ]
-                    },
-                    {"question" : "When was the first tweet sent?",
-                     "image": "static/img/quiz/qmark.png",
-                     "alternatives" : [
-                        {"key": true,
-                         "alternative": "March 21, 2006"},
-                        {"key": false,
-                         "alternative": "April 1, 2004"},
-                        {"key": false,
-                         "alternative": "September 11, 2007"},
-                        {"key": false,
-                         "alternative": "May 2, 2006"}
-                     ]
-                    },
-                    {"question" : "First webcam ever, what did it watch in 1991?",
-                     "image": "static/img/quiz/qmark.png",
-                     "alternatives" : [
-                        {"key": true,
-                         "alternative": "Science experiment at Cornell University"},
-                        {"key": false,
-                         "alternative": "A pot of coffee at Cambridge University"},
-                        {"key": false,
-                         "alternative": "Tigers at Berlin Zoo"}
-                     ]
-                    }
-                ]
             }
-        }}
-]}
+        },
+        {
+            "History of the Web": {
+                "levels": {
+                    "easy": [
+                        {
+                            "question": "What was, according to the man, “very cool”, in the first YouTube video?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "That the elephants had really long trunks"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "That the giraffes had really long necks"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "That the monkeys were reading the paper"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "That the penguins were swimming really fast"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "How many searches are for porn?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "About 1 in 3 searches"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "50% of all searches"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "A litte over 20%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "No one knows"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "When was the first tweet sent?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "March 21, 2006"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "April 1, 2004"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "September 11, 2007"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "May 2, 2006"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "First webcam ever, what did it watch in 1991?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Science experiment at Cornell University"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "A pot of coffee at Cambridge University"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Tigers at Berlin Zoo"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Absurdeties of web history": {
+                "levels": {
+                    "easy": [
+                        {
+                            "question": "Who created the first email program to work over a distributed network?",
+                            "image": "static/img/quiz/tomlinson.jpg",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "Dale Dougherty"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Tim O'Reilly"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Steve Jobs"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "Ray Tomlinson"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Who coined the term `surfing` the internet in 1992?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "Professor Hawking at Cambridge Universety"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "Librerian Jean Armour Polly"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Unknown Australian surfer"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What did Amazon sell at first?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Books"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Games"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "DVDs"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Clothing"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
