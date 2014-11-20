@@ -185,6 +185,19 @@
                     {"key": false,
                      "alternative": "64%"}
                  ]
+                },
+                {"question" : "Who sent the first email?",
+                     "image": "static/img/quiz/qmark.png",
+                     "alternatives" : [
+                        {"key": true,
+                         "alternative": "Professor Peter Kirstein at Univeristy College London"},
+                        {"key": false,
+                         "alternative": "Ray Tomlinson at BBN"},
+                        {"key": false,
+                         "alternative": "Ray Bradbury"},
+                        {"key": false,
+                         "alternative": "C.S. Lewis"}
+                     ]
                 }
             ]
         }
@@ -203,6 +216,41 @@
                          "alternative": "Steve Jobs"},
                         {"key": true,
                          "alternative": "Ray Tomlinson"}
+                     ]
+                    },
+                    {"question" : "Who coined the term `surfing` the internet in 1992?",
+                     "image": "static/img/quiz/qmark.png",
+                     "alternatives" : [
+                        {"key": false,
+                         "alternative": "Professor Hawking at Cambridge Universety"},
+                        {"key": true,
+                         "alternative": "Librerian Jean Armour Polly"},
+                        {"key": false,
+                         "alternative": "Unknown Australian surfer"}
+                     ]
+                    },
+                    {"question" : "When was the first tweet sent?",
+                     "image": "static/img/quiz/qmark.png",
+                     "alternatives" : [
+                        {"key": true,
+                         "alternative": "March 21, 2006"},
+                        {"key": false,
+                         "alternative": "April 1, 2004"},
+                        {"key": false,
+                         "alternative": "September 11, 2007"},
+                        {"key": false,
+                         "alternative": "May 2, 2006"}
+                     ]
+                    },
+                    {"question" : "First webcam ever, what did it watch in 1991?",
+                     "image": "static/img/quiz/qmark.png",
+                     "alternatives" : [
+                        {"key": true,
+                         "alternative": "Science experiment at Cornell University"},
+                        {"key": false,
+                         "alternative": "A pot of coffee at Cambridge University"},
+                        {"key": false,
+                         "alternative": "Tigers at Berlin Zoo"}
                      ]
                     }
                 ]
