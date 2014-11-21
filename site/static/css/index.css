@@ -32,6 +32,10 @@ nav a {
     font-weight: bold;
 }
 
+nav a img {
+    vertical-align: middle;
+}
+
 header {
     height: 200px;
     line-height: 200px;
