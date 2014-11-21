@@ -22,6 +22,9 @@ window.onload = function() {
     });
 
     back.addEventListener("click", function(){
-        window.location = location.href.substring(0, location.href.indexOf('quiz'))+'index.html';
+        if (confirm("Are you sure you want to exit the Quiz?")) {
+            window.location = location.href.substring(0,
+                    location.href.indexOf('quiz'))+'index.html';
+        }
     }, false);
 }
