@@ -319,5 +319,12 @@ footer {
 footer p {
     font-family: "Lobster", cursive;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.2rem;
+}
+
+
+@media only screen and (min-width: 1170px) {
+    footer p {
+        font-size: 2rem;
+    }
 }
