@@ -4,6 +4,7 @@
 
 window.onload = function() {
     var form = document.getElementById("quizform");
+    var back = document.getElementById("back");
 
     quiz.file = "lib/quiz.json";
 
@@ -19,4 +20,8 @@ window.onload = function() {
         quiz.initState();
         quiz.loadCategories();
     });
+
+    back.addEventListener("click", function(){
+        window.location = location.href.substring(0, location.href.indexOf('quiz'))+'index.html';
+    }, false);
 }

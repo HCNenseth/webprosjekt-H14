@@ -132,6 +132,16 @@ body {
 }
 
 
+#back {
+    position: absolute;
+    top: 6px;
+    right: 2px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background: url("../img/icons/glyphicons_207_remove_4.png") no-repeat;
+}
+
 /* Mobile part */
 
 @media only screen 
