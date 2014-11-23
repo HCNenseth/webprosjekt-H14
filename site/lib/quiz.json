@@ -506,7 +506,7 @@
                         },
                         {
                             "question": "In 2006 a Justice Department in America hired a statistician to determine how much Internet content was adult-centered and otherwise sexually explicit. How much of the internet did he find to contain this material?",
-                            "image": "static/img/quiz/amazon.jpg",
+                            "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
                                     "key": false,
@@ -528,7 +528,7 @@
                         },
                         {
                             "question": "Google says the internet contains about 5 billion TB of data. How much has google indexed?",
-                            "image": "static/img/quiz/amazon.jpg",
+                            "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
                                     "key": false,
@@ -550,7 +550,7 @@
                         },
                         {
                             "question": "What is a DDOS?",
-                            "image": "static/img/quiz/amazon.jpg",
+                            "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
                                     "key": false,
