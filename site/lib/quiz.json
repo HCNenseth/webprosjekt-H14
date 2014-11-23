@@ -547,6 +547,24 @@
                                     "alternative": "91.5%"
                                 }
                             ]
+                        },
+                        {
+                            "question": "What is a DDOS?",
+                            "image": "static/img/quiz/amazon.jpg",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "An early operasting systerm"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "A form of “cyber terrorism” is Distributed Denial of Service attack, whereby hundreds if not thousands of systems around the world simultaneously and repeatedly connect to a website or network in order to tie up the server resources, often sending it crashing offline"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Hacker group in the 90`s"
+                                }
+                            ]
                         }
                     ]
                 }
