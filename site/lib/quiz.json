@@ -383,6 +383,42 @@
                                     "alternative": "Tigers at Berlin Zoo"
                                 }
                             ]
+                        },
+                        {
+                            "question": "What was Napster?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "First website for those with sleeping disorders"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "An application that allows users to swap music over the Internet"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Forerunner to Youtube"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What is this -> http://info.cern.ch/hypertext/WWW/TheProject.html",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "Nonfunctonal link"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "Worlds first website"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Cern homepage"
+                                }
+                            ]
                         }
                     ]
                 }
@@ -465,6 +501,50 @@
                                 {
                                     "key": true,
                                     "alternative": "Everything from a to z"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "In 2006 a Justice Department in America hired a statistician to determine how much Internet content was adult-centered and otherwise sexually explicit. How much of the internet did he find to contain this material?",
+                            "image": "static/img/quiz/amazon.jpg",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "14%"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "1.1%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "19%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "6.1%"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Google says the internet contains about 5 billion TB of data. How much has google indexed?",
+                            "image": "static/img/quiz/amazon.jpg",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "12%"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "0.04%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "66%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "91.5%"
                                 }
                             ]
                         }
