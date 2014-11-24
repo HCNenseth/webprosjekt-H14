@@ -11,7 +11,7 @@ window.onload = function () {
         dates = document.getElementsByClassName("date"),
         deletes = document.getElementsByClassName("delete"),
         state = false,
-        defaultLocation = "#timeline";
+        defaultLocation = "#top";
 
     function showAll(callback) {
         for (var i = 0; i < blocks.length; i++) {
