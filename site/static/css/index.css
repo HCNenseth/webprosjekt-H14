@@ -282,20 +282,14 @@ header h1 {
 }
 
 footer {
-    height: 100px;
+    height: 75px;
     padding: 10px;
 }
 
-footer p {
+footer a, footer p {
     font-family: "Lobster", cursive;
     text-align: center;
-    font-size: 1.2rem;
-}
-
-footer ul {
-    font-family: "Lobster", cursive;
-    text-align: center;
-
+    font-size: 1.5rem !important;
 }
 
 @media only screen and (min-width: 1170px) {
