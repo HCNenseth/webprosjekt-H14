@@ -1,0 +1,425 @@
+<!DOCTYPE HTML>
+<html lang="no" xmlns="http://www.w3.org/1999/xhtml" xml:lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KITT - sluttrapport</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" media="screen">
+</head>
+
+<body>
+
+  <section data-grid-container>
+
+<nav data-grid="4" data-grid-mobile="4" data-grid-tablet="4">
+  <ul>
+    <li><a href="#1.0" onclick="toggle_visibility('nav-intro');">1 Introduksjon</a>
+      <ul id="nav-intro" class="nav-ul">
+        <li><a href="#1.1">1.1 Prosjektet</a></li>
+        <li><a href="#1.2">1.2 Referanser</a></li>
+      </ul>
+    </li>
+    <li><a href="#2.0" onclick="toggle_visibility('nav-organisering');">2 Organisering av prosjektet</a>
+      <ul id="nav-organisering" class="nav-ul">
+        <li><a href="#2.1">2.1 Intern Organisering</a></li>
+        <li><a href="#2.2">2.2 Ansvarskart</a></li>
+        <li><a href="#2.3">2.3 Planer</a></li>
+      </ul>
+    </li>
+    <li><a href="#3.0" onclick="toggle_visibility('nav-styringsprosesser');">3 Styringsprosesser</a>
+      <ul id="nav-styringsprosesser" class="nav-ul">
+        <li><a href="#3.1">3.1 Mål og Tema</a></li>
+        <li><a href="#3.2">3.2 Tidsplanlegging</a></li>
+        <li><a href="#3.3">3.3 Risikoplanlegging</a></li>
+        <li><a href="#3.4">3.4 Risikostyring</a></li>
+        <li><a href="#3.5">3.5 Verktøy</a></li>
+        <li><a href="#3.6">3.5 Uplanlagte implementasjoner</a></li>
+      </ul>
+    </li>
+    <li><a href="#4.0" onclick="toggle_visibility('nav-presentasjon');">4 Presentasjon av ferdig nettsted</a>
+      <ul id="nav-presentasjon" class="nav-ul">
+        <li><a href="#4.1">4.1 Informasjon og Innhold</a></li>
+        <li><a href="#4.2">4.2 Farger, størrelser og tekst.</a></li>
+        <li><a href="#4.3">4.3 Navigering og webside struktur</a></li>
+        <li><a href="#4.4">4.4 Universell utforming</a></li>
+        <li><a href="#4.5">4.5 Teknologier brukt</a></li>
+        <li><a href="#4.6">4.6 Testing</a></li>
+      </ul>
+    </li>
+    <li><a href="#5.0" onclick="toggle_visibility('nav-evaluering');">5 Evaluering</a>
+      <ul id="nav-evaluering" class="nav-ul">
+        <li><a href="#">Evaluering av </a></li>
+        <li><a href="#"></a></li>
+        <li><li><a href="#5.1">5.1 Konklusjon</a></li></li>
+      </ul>
+    </li>
+
+    <li><a href="#6.0" onclick="toggle_visibility('nav-evaluering');">6 Vedlegg</a></li>
+  </ul>
+</nav>
+
+
+  <div class="tittel" data-grid="12" data-grid-mobile="4" data-grid-tablet="6">
+    <h1>Sluttrapport for DAFE1200</h1>
+    <h2>Gruppe #1 - KITT</h2>
+    <h3>Dato: 26.11.2014</h3>
+  </div>
+
+  <span data-grid-row>&nbsp;</span>
+
+
+
+    <article data-grid-tablet="6" data-grid="8" data-grid-mobile="4">
+
+      <h3>Abstrakt</h3>
+      <p>
+        Denne rapporten er skrevet som en dokumentasjon for et gruppeprosjekt i kurset DAFE1200 ved Høgskolen i Oslo og Akershus.<br />
+        Prosjektoppgaven innebar å utvikle et nettsted med HTML, CSS og JavaScript.<br />
+
+        Prosjektgruppen består av fire studenter fra Dataingeniørlinjen.<br />
+        Denne rapporten skal gi et inntrykk av planlegging, arbeidsmetode og erfaringer.
+      </p>
+
+      <a id="1.0">&nbsp;</a>
+      <h2>Kapittel 1: Introduksjon</h2>
+
+      <ul>
+        <li><h3 class="navn">Hans Christian Nenseth, s236334</h3></li>
+        <li><h3 class="navn">Marius Alexander Skjolden, s114143</h3></li>
+        <li><h3 class="navn">Torbjørn M. Brandrud, s236329</h3></li>
+        <li><h3 class="navn">Hans Petter Osvold, s929913</h3></li>
+      </ul>
+
+
+
+      <a id="1.1">&nbsp;</a>
+      <h3>1.1 Prosjektet</h3>
+      <p>Vi har laget et nettsted som tar brukeren med på en reise gjennom internettets historie, med fokus på WWW. Nettstedets
+        forside inneholder en vertikal timeline som viser viktige hendelser fra webbens historie.
+       </p>
+
+       <p>
+         De første to ukene av prosjektet brukte vi til å utveksle tanker, ideer og inspirasjon.
+         Vi ble raskt enige om hvilket nettsted vi ville utvikle, og hvordan vi skulle realisere denne ideen. <br />
+
+         Deretter produserte vi ulike planer for å øke både arbeidsflyten og dermed produktiviteten.
+         Det første vi ble enige om var hvem som skulle gjøre hva.
+         Så skrev vi ned ulike milepæler, og deadline på disse.
+         Da satt vi igjen med både et ansvarskart, og en milepælsplan som ga et oversiktlig bilde over hvem som hadde ansvar for de ulike milepælene.
+       </p>
+       <p>
+         I prosjektets tredje uke startet utviklingen av nettstedet. Denne biten gikk raskere enn forespeilet på milepælsplanen.
+         Vi tror hovedgrunnen til dette er at vi brukte såppas mye tid på planlegging og kommunikasjon i forkant av utviklingen slik at når den startet var vi 100% enige om hva og hvordan ting skulle bli gjort.
+       </p>
+
+       <p>
+         Etter at en fullverdig versjon av nettstedet var live, valgte vi å legge til noen flere funksjoner som ikke var forespeilet i forrapporten.
+         <ol>
+           <li>Det ble utviklet en funksjon som forvandler Epoch-tid til Menneske-tid og omvendt. </li>
+           <li>Det ble utviklet funksjonalitet som filterer entiteter etter kategori. </li>
+           <li>Det ble utviklet funksjonalitet som lar brukeren "krysse ut" entiteter fra tidslinjen. </li>
+         </ol>
+
+
+       </p>
+
+       <p>
+       Nettstedet ble ferdig etter tre uker i utviklingsfasen.
+       </p>
+
+       <a id="1.2">&nbsp;</a>
+       <h3>1.2 Referanser</h3>
+      <table>
+         <th>Tittel</th><th>Forfatter</th><th>Forlag</th><th>År</th>
+         <tr>
+           <td>Applied Software Project Management</td><td>Andrew Stellman & Jennifer Greene</td><td>O'Reilly Media</td><td>2005</td>
+          </tr>
+         <tr>
+           <td>A History of the Internet and the Digital Future</td><td>Johnny Ryan</td><td>Reaktion Books</td><td>2010</td>
+         </tr>
+         <tr>
+           <td>HTML & CSS: The Complete Reference</td><td>Thomas A. Powell</td><td>Mc Graw Hill</td><td>2010</td>
+         </tr>
+         <tr>
+           <td><a href="http://www.w3.org/2005/01/timelines/timeline-2500x998.png">WWW tidslinje</a></td><td>W3.org</td><td>W3.org</td><td>2014</td>
+         </tr>
+         <tr>
+           <td><a href="http://hexademo.wordpress.com/">Hexademo</a></td><td>WordPress</td><td>WordPress</td><td>2011</td>
+         </tr>
+         <tr>
+           <td><a href="http://timeline.theme.tumblr.com/">Tumblr-timeline</a></td><td></td><td></td><td></td>
+         </tr>
+         <tr>
+           <td>n/a</td><td>n/a</td><td>n/a</td><td>n/a</td>
+         </tr>
+
+       </table>
+
+       <a id="2.0">&nbsp;</a>
+       <h2>Kapittel 2: Organisering av prosjektet</h2>
+
+       <a id="2.1">&nbsp;</a>
+       <h3>2.1 Intern organisering</h3>
+       <p>
+         < Hvem gjør hva, hvem har ansvaret for hva. Husk å føre timelister, og registrere alt arbeidet på hver enkelt gruppedeltaker. Selve timelistene skal IKKE med her, men tas med som vedlegg til rapporten. >
+        </p>
+        <p>
+        Vi bestemte oss for at nettsiden skulle programmeres i felleskap.
+        Dette førte til at vi fastsatte to dager i uken hvor vi skulle møtes på skolen.
+        Vår arbeidstid var mandager 08:00 til 13:00 og onsdager 13:00 til 15:30.
+        Et typisk møte startet med et uformelt møte hvor vi tok opp ideer og tanker fra forrige møte. Etter møtet
+        </p>
+
+        <a id="2.2">&nbsp;</a>
+        <h3>2.2 Prosjektansvarskart</h3>
+        <table>
+          <tr>
+            <th>Ansvar</th><th>Navn</th>
+          </tr>
+          <tr>
+            <td>Prosjekt Leder</td><td>Hans Christian Nenseth</td>
+           </tr>
+            <tr>
+              <td>Ansvarlig for prosjektplanen</td><td>Hans Petter Osvold</td>
+             </tr>
+             <tr>
+               <td>Hovedansvarlig for Webside utvikling</td><td>kodet i fellesskap</td>
+              </tr>
+              <tr>
+                <td>Ansvarlig for back-up og dokumentasjon</td><td>Marius Alexander Skjolden</td>
+              </tr>
+              <tr>
+                <td>Ansvarlig for artikler</td><td>Torbjørn M. Brandrud</td>
+              </tr>
+              <tr>
+                <td>Ansvarlig for Quiz</td><td>Marius Alexander Skjolden</td>
+              </tr>
+            </table>
+
+        <a id="2.3">&nbsp;</a>
+        <h3>2.3 Milepælsplan</h3>
+        <p>Etter forprosjektrapporten ble levert valgte vi å revidere den originale milepælsplanen. Grunnen til dette er Risikoplanlegging. </p>
+        <table>
+          <tr>
+            <th>Milepæl</th><th>Dato</th>
+          </tr>
+          <tr>
+            <td>HTML&CSS: Struktur&Definisjoner for layout</td><td> onsdag 12. november </td>
+          </tr>
+          <tr>
+            <td>Quiz: Teknisk&Innhold</td><td> onsdag 12. november </td>
+          </tr>
+          <tr>
+            <td>CSS: Farger</td><td> onsdag 19. november </td>
+          </tr>
+          <tr>
+            <td>Artikler ( side-innhold )</td><td> mandag 24. november </td>
+          </tr>
+        </table>
+
+        <a id="2.4">&nbsp;</a>
+        <h3>2.4 Aktivitetsplan</h3>
+        <p>Vi hadde faste møter hver mandag og onsdag. Mandager satt vi fra 08:00 til 14:00 og onsdager satt vi fra 13:00 til 15:30.</p>
+        <p></p>
+
+        <a id="2.5">&nbsp;</a>
+        <h3>2.5 Prosjektdagbok</h3>
+        <p>Vi skrev møtereferater slik at vi enkelt kunne holde oversikt over hva vi ble enige om.</p>
+
+        <a id="2.6">&nbsp;</a>
+        <h3>2.6 Risikoplan</h3>
+        <p>Vi lagde en risikoplan for følgende problematikk: </p>
+        <ul>
+          <li>Sykdom</li>
+          <li>Teknisk sammenbrudd</li>
+          <li>Konflikt</li>
+        </ul>
+
+       <a id="3.0">&nbsp;</a>
+       <h2>Kapittel 3: Styringsprosesser</h2>
+       <a id="3.1">&nbsp;</a>
+       <h3>3.1 Mål for prosjektet og valget av tema</h3>
+       <p>Vi har laget et nettsted som inneholder to sider. En forside som viser webbens historie gjennom en vertikal timeline. Samt en Quiz som lar brukeren få teste sine kunnskaper i kategorien teknologi.</p>
+       <p>Vi hadde flere ideer, blant annet nettsider dedikert til Kendo, student mat og flagg.
+          Det ble raskt en konsensus for å utvikle et nettsted som tar for seg www sin historie.
+          Valget er tre-delt.</p>
+       <ol>
+         <li>Vi ønsket å levere en oppgave som ikke liknet på noe som ble levert i fjor.</li>
+         <li>Teknologi er en felles interesse for oss.</li>
+         <li>I læreplanen til WebProsjekt faget står det at studentene <i>kan se denne delen av informasjonsteknologien både i et historisk og i et fremtidsrettet perspektiv.</i></li>
+       </ol>
+      <p>
+      En annen ide vi ville ha med var å ha med en artig quiz som skulle være relevant for tema.
+      </p>
+
+        <a id="3.2">&nbsp;</a>
+        <h3>3.2 Tidsplanlegging</h3>
+        <p>Hva skal gjøres/oppgaver? Hvor lang tid vil oppgavene ta. (Estimert)</p>
+        <ul>
+          <li>HTML&CSS: Struktur og definisjoner for layout ble ferdig mandag 10. november. Det vil si to dager i forkant av milepælsplanen. </li>
+          <li>Quizen: ( Teknisk + Innhold ) ble ferdig onsdag 19. november. Det vil si en uke i etterkant av milepælsplanen. </li>
+          <li>CSS (Farger og Finpuss): ble ferdig fredag 21. november. Det vil si to dager etter milepælsplanen.</li>
+          <li>Artikler ( side-innhold ) ble ferdig mandag 17. november. Det vil si syv dager i forkant av milepælsplanen.</li>
+        </ul>
+        <p>Ferdigstillelsen av Quizen ble forsinket med en uke. Grunnen til dette er at vi stokket om på den originale milepælsplanen slik at quizen ikke skulle bli utviklet innen hovedfunksjonaliteten til nettstedet var ferdig utviklet.</p>
+
+        <p>En detaljert beskrivelse av hva som er implementert, sett i sammenheng med forprosjektrapporten. <br />
+          <ul>
+            <li>Filtrering ved ikon </li>
+            <li>Museover årstall </li>
+            <li>Timeline er responsive</li>
+            <li>muligheten til å krysse ut artikler</li>
+            <li>quiz
+              <ul>
+                <li>Det er 5 kategorier.</li>
+                <li>Det er 2 vanskelighetsgrader.</li>
+                <li>Det er mellom 10-20 spørsmål per kategori.</li>
+                <li>Det spørsmålene blir presentert i en tilfeldig rekkefølge</li>
+                <li>Svaralternativene blir plassert tilfeldig</li>
+              </ul>
+            </li>
+          </ul>
+        </p>
+
+        <a id="3.3">&nbsp;</a>
+        <h3>3.3 Risikoplanlegging </h3>
+        <p>
+        Hva kan skje av uforutsette ting som kan stoppe/forsinke prosjektet eller føre til endringer i tidsplanen? Beskriv her (risikoplanlegging) alle ting dere kommer på. Under neste punkt (risikostyring) skal dere liste opp disse farene, og hvilke tiltak dere kan sette inn dersom dette skulle skje.
+        </p>
+
+        <a id="3.4">&nbsp;</a>
+        <h3>3.4 Risikostyring</h3>
+        <p></p>
+
+        <a id="3.5">&nbsp;</a>
+        <h3>3.5 Kommunikasjonsverktøy og andre verktøy</h3>
+        <p>
+        Vi har brukt facebook sin gruppesamtale funksjon som et kommunikasjonsverktøy. Utover dette har brukt Git for å dele arbeid.
+        Vi hadde møter hver mandag og onsdag.
+        </p>
+        <p>Netbeans, IntelliJ, Atom, Adobe Photoshop </p>
+
+        <h3><a id="3.6">3.6 Uplanlagte implementasjoner</a></h3>
+        <p>I løpet av gjennomføringen av prosjektet har ideer som opprinnelig ikke var til stede
+        dukket opp. Vi har valgt å inkludere noen av dem i sluttproduktet.
+        Det er i all hovedsak ideer rundt bruk av JavaScript på hovedsiden. Blandt annet: Lyttere
+        for realtime filtrering av innholds kategorier og mulighet til
+        å skjule individuelle tidslinje blokker.
+
+        Quizen har og fått noen tillegg i JavaScript avdelingen. Dette innebærer en umiddelbar
+        riktig/feil tilbakemelding etter hvert avgitt svar.
+        </p>
+
+
+        <a id="4.0">&nbsp;</a>
+        <h2>Kapittel 4: Presentasjon av ferdig nettsted</h2>
+        <p>Denne delen er basert på noen deler fra rapporten som står i fronter under mappen "Eksempler fra tidiligere år ”.
+Her er en liste over noen elementer som dere kan ha  i rapporten. Listen kan utvides/tilpasses etter behov.
+</p>
+        <a id="4.1">&nbsp;</a>
+        <h3>4.1 Informasjon og Innhold</h3>
+        <p>
+          Nettstedet skal gi informasjon om hendelser som er knyttet opp mot historien til WWW.
+          Vi har tatt med noen hendelser som kom før WWW, men disse er bare for å
+          sette det hele i et historisk perspektiv. Vi bestemte oss for
+          å dele temaene opp i flere kategorier, slik at vi kunne ha dem på en tidslinje, og likevel ha en metode å sortere
+          dem på. Disse kategoriene fokuserer på viktige oppfinnelser, gjennombrudd for WWW, viktige nettsider, nettlesere,
+          og sist men ikke minst, mobilt nett.
+
+        </p>
+
+        <a id="4.2">&nbsp;</a>
+        <h3>4.2 Fargevalg, størrelser og tekst</h3>
+        <p>Navigasjonen er rød.</p>
+        <p>Header er mørkerød.</p>
+        <p>Body er lysegrå</p>
+        <p>Tidslinjeentitet er hvit</p>
+
+        <a id="4.3">&nbsp;</a>
+        <h3>4.3 Navigering og webside struktur</h3>
+
+        <p>
+          Navigasjon strukturen
+        </p>
+
+        <a id="4.4">&nbsp;</a>
+        <h3>4.4 Universell utforming</h3>
+
+        <ul>
+          <li>responsive nettsted for mobil, tablet og desktops.</li>
+          <li>skriftstørrelsen skalerer </li>
+        </ul>
+
+
+        <a id="4.5">&nbsp;</a>
+        <h3>4.5 Teknologier brukequest></h3>
+        <p>Her kan dere snakke litt om fordelen ved å bruke JavaScript og CSS med tanken om deres webside, prøv å bruke spesifikke eksempler fra deres webside. Hvis dere brukte andre teknologier i tilegg, må deres også gi grunnlag for dette.</p>
+
+        <p>
+          Vi har brukt HTML og CSS til å definere websidestruktur og stiler.
+          CSS er et språk som brukes til å definere utseende til nettstedet. <br />Det er flere fordeler ved å bruke CSS:
+          <ol>
+            <li>Kodebasen blir mer oversiktlig.</li>
+            <li>Det blir enklere å endre utseende på hele nettstedet.</li>
+            <li>Det er enklere å unngå definisjonsrepitasjoner.</li>
+          </ol> <br />
+
+           Utover dette har vi brukt JavaScript for å la brukeren samhandle med nettstedet. </p>
+
+        <h4>Hvorfor har vi brukt JavaScript?</h4>
+        <p>JS fordi ... </p>
+        <h4>Hvordan har vi brukt JavaScript?</h4>
+        <p>Vi har brukt JavaScript ... </p>
+
+        <h4>Hvorfor har vi brukt JSON (JavaScript Object Notation)?</h4>
+        <p>Datastrukturer og programmering går hånd i hånd. Dårlige datastrukturer gir dårlig programmering.
+        Med de teknologibegrensningene vi har fått er JavaScript og JSON et naturlig valg. Vi kunne ha valgt andre
+        datastrukturer som f.eks et rent JavaScript objekt, men følte det ikke ga fleksibilitet og skalerbarhet til
+        produktet. Tanken med JSON er enkelt å kunne flytte dataene over til andre plattformer eller tjenester. Selv
+        om JSON har dype røtter i JavaScript miljøet har standarden blitt så populær at de aller fleste
+        programmeringspråk har innebygget støtte for både lese og skrive til JSON format.</p>
+
+        <h4>Hvordan har vi brukt JSON ?</h4>
+        <p>Vi har valgt å bruke JSON som datastruktur til quizen. Denne applikasjonen hadde behov for et godt
+        og fleksibelt grunnlag for å kunne utvide med kategorier, vanskelighetsgrader, spørmål og svaralternativer.
+        JSON gjorde det og enkelt å plukke ut spørsmålsett i nye tilfeldige rekkefølger hver gang en trekker
+        et nytt spill.</p>
+
+        <h4>Hvorfor har vi brukt AJAX (Asynchronous JavaScript + XML)? </h4>
+        <p>Grunnet valget av JSON som datastruktur til quizen ble innlastingen av disse dataene litt mer utfordrende.
+        Fordelen med dette var at vi fikk sett mer på AJAX og XMLHttpRequest. Denne teknologien vil og
+        være en integral del ved eventuell ekspandering av siden og flytting av dataene (til quizen) over til en annen
+        tjeneste.</p>
+
+
+        <a id="4.6">&nbsp;</a>
+        <h3>4.6 Testing</h3>
+        <p>Vi har brukt W3C Markup Validation Service. Resultatet </p>
+
+        <p>Vi har brukt W3C CSS Validation Service. Resultatet </p>
+
+
+
+        <p>Vi har brukt Tingtun Accessibility Check, som anvender 158 tester for teste nettstedets tilgjengelighet. </p>
+        <p>Resultat: Fail: 0, Verify: 99, Pass: 59. <b>Score: 100.0%</b> (where 100.0% is the best) <a href="http://accessibility.tingtun.no/en/pagecheck2.0/?url=http%3A%2F%2Fczech.plastboks.net%2Fwebprosjekt%2F&checkid=21423">link til resultat</a> </p>
+
+
+        <a id="5.0">&nbsp;</a>
+        <h2>Kapittel 5: Evaluering</h2>
+
+        <p>Hva har dere lært? Hva kunne vært gjort annerledes? Mangler det noe i rapporten? Hvordan var samarbeidet? Var det konflikter i gruppa, og hvordan taklet dere dette?</p>
+        <p>Forsøk å vise refleksjon over forskjellen mellom det dere satte dere fore i forprosjektrapporten, og det dere endte opp med.</p>
+        <a id="5.1">&nbsp;</a>
+        <h3>5.1 Konklusjon</h3>
+        <p></p>
+
+        <h2>6 Vedlegg</h2>
+        <a id="6.0">&nbsp;</a>
+        <a href="#">Timeliste</a>
+        <p>< evt andre vedlegg ></p>
+
+      <script type="text/javascript" src="assets/js/nav.js"></script>
+    </article>
+  </section>
+</body>
