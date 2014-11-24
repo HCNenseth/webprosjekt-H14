@@ -13,10 +13,10 @@ Innen 2014-11-26 (Onsdag)
 =========================
 * Testing - Alle.
 
-Småting:
--Farger på knappene
--Footer
--Sluttrapport ferdig
--Content ferdig og sett gjennom
--Quiz ferdig og sett gjennom
-
+Småting
+=======
+* Farger på knappene
+* Footer
+* Sluttrapport ferdig
+* Content ferdig og sett gjennom
+* Quiz ferdig og sett gjennom
