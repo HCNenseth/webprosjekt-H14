@@ -1,0 +1,116 @@
+[data-grid-container] {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #c6c7cc;
+  border-top: 0px;
+  border-radius: 5px;
+  margin-top: -5px;
+  padding: 10px;
+
+}
+
+[data-grid-row] {
+  width: 100%;
+  display: block;
+}
+
+[data-grid-container]:before,
+[data-grid-container]:after,
+[data-grid-row]:before,
+[data-grid-row]:after {
+  content: " ";
+  display: table;
+}
+
+[data-grid-container]:after,
+[data-grid-row]:after {
+  clear: both;
+}
+
+[data-grid] {
+  float: left;
+  padding: 0 1%;
+  box-sizing: border-box;
+}
+
+[data-grid="1"] { width: 8.333%; }
+[data-grid="2"] { width: 16.666%; }
+[data-grid="3"] { width: 25%; }
+[data-grid="4"] { width: 33.333%; }
+[data-grid="5"] { width: 41.666%; }
+[data-grid="6"] { width: 50%; }
+[data-grid="7"] { width: 58.333%; }
+[data-grid="8"] { width: 66.666%; }
+[data-grid="9"] { width: 75%; }
+[data-grid="10"] { width: 83.333%; }
+[data-grid="11"] { width: 91.666%; }
+[data-grid="12"] { width: 100%; }
+
+@media only screen and (min-width: 1px) and (max-width: 480px) {
+  [data-grid-container] {
+    max-width: 460px;
+  }
+
+nav {
+  position: fixed;
+  float: left;
+}
+
+  article {
+    position: relative;
+    clear: both;
+  }
+
+  [data-grid-mobile="1"] { width: 25%; }
+  [data-grid-mobile="2"] { width: 50%; }
+  [data-grid-mobile="3"] { width: 75%; }
+  [data-grid-mobile="4"] { width: 100%; }
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  [data-grid-container] {
+    max-width: 720px;
+  }
+
+  [data-grid-tablet="1"] { width: 16.666%; }
+  [data-grid-tablet="2"] { width: 33.333%; }
+  [data-grid-tablet="3"] { width: 50%; }
+  [data-grid-tablet="4"] { width: 66.666%; }
+  [data-grid-tablet="5"] { width: 83.333%; }
+  [data-grid-tablet="6"] { width: 100%; }
+
+nav {
+  position: fixed;
+  float: left;
+}
+
+  article {
+    position: relative;
+    clear: both;
+  }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  [data-grid-container] {
+    max-width: 840px;
+  }
+
+}
+
+@media only screen and (min-width: 1025px) {
+  [data-grid-container] {
+    max-width: 1960px;
+  }
+
+  nav {
+    position: fixed;
+    float: left;
+  }
+
+  article{
+    margin-left: 400px;
+  }
+}
