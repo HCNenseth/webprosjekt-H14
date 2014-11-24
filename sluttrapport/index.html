@@ -309,7 +309,12 @@ Her er en liste over noen elementer som dere kan ha  i rapporten. Listen kan utv
         <h3>4.1 Informasjon og Innhold</h3>
         <p>
           Nettstedet skal gi informasjon om hendelser som er knyttet opp mot historien til WWW.
-          Vi har tatt med noen hendelser som kom før WWW, grunnen til dette er at vi ønsket å sette WWW i et historisk perspektiv.
+          Vi har tatt med noen hendelser som kom før WWW, men disse er bare for å 
+          sette det hele i et historisk perspektiv. Vi bestemte oss for
+          å dele temaene opp i flere kategorier, slik at vi kunne ha dem på en tidslinje, og likevel ha en metode å sortere 
+          dem på. Disse kategoriene fokuserer på viktige oppfinnelser, gjennombrudd for WWW, viktige nettsider, nettlesere, 
+          og sist men ikke minst, mobilt nett. 
+          
         </p>
 
         <a id="4.2">&nbsp;</a>
@@ -336,7 +341,7 @@ Her er en liste over noen elementer som dere kan ha  i rapporten. Listen kan utv
 
 
         <a id="4.5">&nbsp;</a>
-        <h3>4.5 Teknologier brukt</h3>
+        <h3>4.5 Teknologier brukequest>
         <p>Her kan dere snakke litt om fordelen ved å bruke JavaScript og CSS med tanken om deres webside, prøv å bruke spesifikke eksempler fra deres webside. Hvis dere brukte andre teknologier i tilegg, må deres også gi grunnlag for dette.</p>
 
         <p>
@@ -354,12 +359,26 @@ Her er en liste over noen elementer som dere kan ha  i rapporten. Listen kan utv
         <p>JS fordi ... </p>
         <h4>Hvordan har vi brukt JavaScript?</h4>
         <p>Vi har brukt JavaScript ... </p>
-        <h4>Hvorfor har vi brukt JSON ?</h4>
-        <p>JSON fordi ... </p>
+
+        <h4>Hvorfor har vi brukt JSON (JavaScript Object Notation)?</h4>
+        <p>Datastrukturer og programmering går hånd i hånd. Dårlige datastrukturer gir dårlig programmering.
+        Med de teknologibegrensningene vi har fått er JavaScript og JSON et naturlig valg. Vi kunne ha valgt andre
+        datastrukturer som f.eks et rent JavaScript objekt, men følte det ikke ga fleksibilitet og skalerbarhet til
+        produktet. Tanken med JSON er enkelt å kunne flytte dataene over til andre plattformer eller tjenester. Selv
+        om JSON har dype røtter i JavaScript miljøet har standarden blitt så populær at de aller fleste
+        programmeringspråk har innebygget støtte for både lese og skrive til JSON format.</p>
+
         <h4>Hvordan har vi brukt JSON ?</h4>
-        <p>Vi har brukt JSON ... </p>
-        <h4>Hvorfor har vi brukt AJAX? </h4>
-        <p>AJAX fordi ... </p>
+        <p>Vi har valgt å bruke JSON som datastruktur til quizen. Denne applikasjonen hadde behov for et godt
+        og fleksibelt grunnlag for å kunne utvide med kategorier, vanskelighetsgrader, spørmål og svaralternativer.
+        JSON gjorde det og enkelt å plukke ut spørsmålsett i nye tilfeldige rekkefølger hver gang en trekker
+        et nytt spill.</p>
+
+        <h4>Hvorfor har vi brukt AJAX (Asynchronous JavaScript + XML)? </h4>
+        <p>Grunnet valget av JSON som datastruktur til quizen ble innlastingen av disse dataene litt mer utfordrende.
+        Fordelen med dette var at vi fikk sett mer på AJAX og XMLHttpRequest. Denne teknologien vil og
+        være en integral del ved eventuell ekspandering av siden og flytting av dataene (til quizen) over til en annen
+        tjeneste.</p>
 
 
         <a id="4.6">&nbsp;</a>
