@@ -121,9 +121,9 @@ header h1 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    border-radius: 30%;
 }
 
 .timeline-img:hover {
@@ -154,19 +154,6 @@ header h1 {
     height: 60px;
     left: 50%;
     margin-left: -30px;
-    /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    }
-    .cssanimations .timeline-img.is-hidden {
-        visibility: hidden;
-    }
-    .cssanimations .timeline-img.bounce-in {
-        visibility: visible;
-        -webkit-animation: bounce-1 0.6s;
-        -moz-animation: bounce-1 0.6s;
-        animation: bounce-1 0.6s;
-    }
 }
 
 .timeline-content {
@@ -290,24 +277,6 @@ header h1 {
         left: auto;
         right: 122%;
         text-align: right;
-    }
-    .cssanimations .timeline-content.is-hidden {
-        visibility: hidden;
-    }
-    .cssanimations .timeline-content.bounce-in {
-        visibility: visible;
-        -webkit-animation: bounce-2 0.6s;
-        -moz-animation: bounce-2 0.6s;
-        animation: bounce-2 0.6s;
-    }
-}
-
-@media only screen and (min-width: 1170px) {
-    /* inverse bounce effect on even content blocks */
-    .cssanimations .timeline-block:nth-child(even) .timeline-content.bounce-in {
-    -webkit-animation: bounce-2-inverse 0.6s;
-    -moz-animation: bounce-2-inverse 0.6s;
-    animation: bounce-2-inverse 0.6s;
     }
 }
 
