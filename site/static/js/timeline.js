@@ -23,6 +23,7 @@ window.onload = function () {
     function hideBlocks(obj) {
         if (state) {
             state = false;
+            window.location.href = defaultLocation;
             showAll();
         } else {
             state = true;
