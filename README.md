@@ -7,4 +7,8 @@ Webprosjekt H14
 * Mobilt nett (Når man kunne bruke internett på mobilen, iPhone etc.)
 * Viktige personer
 
-
+Live lenker
+===========
+* [Hovedsiden](http://czech.plastboks.net/webprosjekt)
+* [Forprosjekt](http://czech.plastboks.net/forprosjekt)
+* [Sluttrapport](http://czech.plastboks.net/sluttrapport)
