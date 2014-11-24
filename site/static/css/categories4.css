@@ -14,3 +14,9 @@
 .timeline-img.yellow {
     background: #f0bf26;
 }
+.timeline-img.white {
+    background: #ffffff;
+}
+.timeline-img.black {
+    background: #000000;
+}
