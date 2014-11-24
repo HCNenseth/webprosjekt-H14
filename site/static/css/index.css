@@ -145,8 +145,8 @@ header h1 {
 .timeline-img.green { }
 .timeline-img.red { }
 .timeline-img.yellow { }
-.timeline-img.blue { }
-.timeline-img.blue { }
+.timeline-img.purple { }
+.timeline-img.black{ }
 
 @media only screen and (min-width: 1170px) {
     .timeline-img {
