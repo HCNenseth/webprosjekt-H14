@@ -66,3 +66,16 @@ p {
 .tittel ul li {
   list-style-type: none;
 }
+
+#prosjektdeltagere ul {
+  margin: 0;
+  padding: 0;
+}
+
+#prosjektdeltagere ul li {
+  list-style-type: none;
+}
+
+#prosjektdeltagere a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}

@@ -1,5 +1,5 @@
 [data-grid-container] {
-  width: 90%;
+  width: 100%;
   display: block;
   margin: 0 auto;
   border: 1px solid #c6c7cc;
@@ -53,8 +53,16 @@
   }
 
 nav {
+  background: white;
   position: fixed;
-  float: left;
+  top: 0px;
+  left: 0px;
+  z-index: 289;
+  padding: 0px;
+}
+
+.tittel {
+
 }
 
   article {
