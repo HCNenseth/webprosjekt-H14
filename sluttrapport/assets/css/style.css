@@ -21,11 +21,13 @@ nav a {
 #nav-intro, #nav-organisering, #nav-styringsprosesser, #nav-presentasjon, #nav-evaluering  {
   display: none;
 }
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
 
 nav a:link
 {
-  color: white;
-  background-color: black;
+
 }
 
 nav a:visited
@@ -76,6 +78,12 @@ p {
   list-style-type: none;
 }
 
-#prosjektdeltagere a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
+
+table {
+  width: 100%;
+}
+
+table th {
+  text-align: left;
+  border-bottom: 1px solid black;
 }
