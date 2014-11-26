@@ -1,6 +1,112 @@
 {
     "categories": [
         {
+            "History of the Web": {
+                "levels": {
+                    "easy": [
+                        {
+                            "question": "Who sent the first email?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Professor Peter Kirstein at Univeristy College London"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Ray Tomlinson at BBN"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Ray Bradbury"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "C.S. Lewis"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "When was the first tweet sent?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "March 21, 2006"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "April 1, 2004"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "September 11, 2007"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "May 2, 2006"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What did the first webcam ever, watch in 1991?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "Science experiment at Cornell University"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "A pot of coffee at Cambridge University"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Tigers at Berlin Zoo"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What was Napster?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "First website for those with sleeping disorders"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "An application that allows users to swap music over the Internet"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Forerunner to Youtube"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What is this -> http://info.cern.ch/hypertext/WWW/TheProject.html",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "Nonfunctonal link"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "Worlds first website"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Cern homepage"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "Websites": {
                 "levels": {
                     "easy": [
@@ -311,112 +417,6 @@
                                 {
                                     "key": false,
                                     "alternative": "64%"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            }
-        },
-        {
-            "History of the Web": {
-                "levels": {
-                    "easy": [
-                        {
-                            "question": "Who sent the first email?",
-                            "image": "static/img/quiz/qmark.png",
-                            "alternatives": [
-                                {
-                                    "key": true,
-                                    "alternative": "Professor Peter Kirstein at Univeristy College London"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "Ray Tomlinson at BBN"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "Ray Bradbury"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "C.S. Lewis"
-                                }
-                            ]
-                        },
-                        {
-                            "question": "When was the first tweet sent?",
-                            "image": "static/img/quiz/qmark.png",
-                            "alternatives": [
-                                {
-                                    "key": true,
-                                    "alternative": "March 21, 2006"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "April 1, 2004"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "September 11, 2007"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "May 2, 2006"
-                                }
-                            ]
-                        },
-                        {
-                            "question": "What did the first webcam ever, watch in 1991?",
-                            "image": "static/img/quiz/qmark.png",
-                            "alternatives": [
-                                {
-                                    "key": false,
-                                    "alternative": "Science experiment at Cornell University"
-                                },
-                                {
-                                    "key": true,
-                                    "alternative": "A pot of coffee at Cambridge University"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "Tigers at Berlin Zoo"
-                                }
-                            ]
-                        },
-                        {
-                            "question": "What was Napster?",
-                            "image": "static/img/quiz/qmark.png",
-                            "alternatives": [
-                                {
-                                    "key": false,
-                                    "alternative": "First website for those with sleeping disorders"
-                                },
-                                {
-                                    "key": true,
-                                    "alternative": "An application that allows users to swap music over the Internet"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "Forerunner to Youtube"
-                                }
-                            ]
-                        },
-                        {
-                            "question": "What is this -> http://info.cern.ch/hypertext/WWW/TheProject.html",
-                            "image": "static/img/quiz/qmark.png",
-                            "alternatives": [
-                                {
-                                    "key": false,
-                                    "alternative": "Nonfunctonal link"
-                                },
-                                {
-                                    "key": true,
-                                    "alternative": "Worlds first website"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "Cern homepage"
                                 }
                             ]
                         }
