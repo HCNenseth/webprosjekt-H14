@@ -102,7 +102,27 @@
                                 }
                             ]
                         }
-                    ]
+                    ],
+            "hard": [
+                        {
+                            "question": "Test Question",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "..."
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "..."
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "..."
+                                }
+                            ]
+                        }
+                     ]
                 }
             }
         },
@@ -133,7 +153,7 @@
                             ]
                         },
                         {
-                            "question": "Who was the dominant web browser during the 90's?",
+                            "question": "Whick web browser won the browser war in the the 90's?",
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
@@ -214,10 +234,6 @@
                                     "key": false,
                                     "alternative": "Firebird"
                                 },
-                                {
-                                    "key": false,
-                                    "alternative": "The Mozilla Foundation"
-                                }
                             ]
                         },
                         {
@@ -699,9 +715,9 @@
             }
         },
         {
-            "Absurdities of web history": {
+            "Absurdities of Web History": {
                 "levels": {
-                    "easy": [
+                    "normal": [
                         {
                             "question": "Who created the first email program to work over a distributed network?",
                             "image": "static/img/quiz/tomlinson.jpg",
@@ -742,7 +758,7 @@
                                 },
                                 {
                                     "key": false,
-                                    "alternative": "No one knows"
+                                    "alternative": "Nobody knows"
                                 }
                             ]
                         },
