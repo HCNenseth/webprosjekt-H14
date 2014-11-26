@@ -107,6 +107,280 @@
             }
         },
         {
+            "Web Browsers": {
+                "levels": {
+                    "easy": [
+                        {
+                            "question": "When did the first web browser arrive?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "1990"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1991"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1992"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1989"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Who was the dominant web browser during the 90's?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Internet Explorer"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Netscape Navigator"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Erwise"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Mosaic"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What is Apple's default browser called?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Safari"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Google Chrome"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Mozilla Firefox"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Opera"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What does TOR stand for?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "The Onion Router"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "It's just named after the Norse god"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "The Other Router"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "The Online Router"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Which of the following is NOT a name that was used for Firefox?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Thunderbird"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Pheonix"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Firebird"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "The Mozilla Foundation"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Which browser has the most usage-share today?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Google Chrome"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Internet Explorer"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Mozilla Firefox"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Opera Mini"
+                                }
+                            ]
+                        }
+                    ],
+                    "hard": [
+                        {
+                            "question": "The first web browser was first called WWW, but later dubbed...?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Nexus"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Internet Explorer"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Netscape Navigator"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Erwise"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Who created Mosaic?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Marc Andreessen"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Tim Berners-Lee"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Robert Cailliau"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Four Finish students"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "When was Internet Explorer released?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "1995"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1994"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1996"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1993"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What was'ACID2'?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "A performance test for web browsers"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "The first browser with a graphical interface"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "A special acid that was used to develop technology"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "The first mobile web browser"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "With what engine was Google Chrome created?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Webkit layout"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Webkit developer"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Gecko"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Chromium"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "How much usage-share did Internet Explorer have at its peak?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "90-100%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "80-90%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "70-80%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "60-70%"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        },
+        {
             "Websites": {
                 "levels": {
                     "easy": [
@@ -563,60 +837,6 @@
                                 {
                                     "key": false,
                                     "alternative": "Hacker group in the 90`s"
-                                }
-                            ]
-                        },
-                        {
-                            "question": "Which country has the lagest percentage (75%) of internet users?",
-                            "image": "static/img/quiz/qmark.png",
-                            "alternatives": [
-                                {
-                                    "key": false,
-                                    "alternative": "Andorra"
-                                },
-                                {
-                                    "key": true,
-                                    "alternative": "Sweden"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "USA"
-                                }
-                            ]
-                        },
-                        {
-                            "question": "What persentage of emails are spam?",
-                            "image": "static/img/quiz/qmark.png",
-                            "alternatives": [
-                                {
-                                    "key": false,
-                                    "alternative": "60%"
-                                },
-                                {
-                                    "key": true,
-                                    "alternative": "75%"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "90%"
-                                }
-                            ]
-                        },
-                        {
-                            "question": "When was the first ad banner launched?",
-                            "image": "static/img/quiz/qmark.png",
-                            "alternatives": [
-                                {
-                                    "key": false,
-                                    "alternative": "1992"
-                                },
-                                {
-                                    "key": true,
-                                    "alternative": "1994"
-                                },
-                                {
-                                    "key": false,
-                                    "alternative": "2001"
                                 }
                             ]
                         }
