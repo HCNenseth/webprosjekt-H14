@@ -18,6 +18,10 @@ nav a {
   text-decoration: none;
 }
 
+img {
+  max-width: 90%;
+}
+
 #nav-intro, #nav-organisering, #nav-styringsprosesser, #nav-presentasjon, #nav-evaluering  {
   display: none;
 }
