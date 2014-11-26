@@ -85,6 +85,24 @@
                             ]
                         },
                         {
+                            "question": "Who created the WWW?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "Tim Berners-Lee"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "Steven Hawking"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Bill Gates"
+                                }
+                            ]
+                        },
+                        {
                             "question": "What is this -> http://info.cern.ch/hypertext/WWW/TheProject.html",
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
@@ -94,11 +112,11 @@
                                 },
                                 {
                                     "key": true,
-                                    "alternative": "Worlds first website"
+                                    "alternative": "World's first website"
                                 },
                                 {
                                     "key": false,
-                                    "alternative": "Cern homepage"
+                                    "alternative": "Cern's homepage"
                                 }
                             ]
                         }
