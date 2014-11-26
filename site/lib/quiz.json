@@ -153,7 +153,7 @@
                             ]
                         },
                         {
-                            "question": "Who was the dominant web browser during the 90's?",
+                            "question": "Whick web browser won the browser war in the the 90's?",
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
@@ -234,10 +234,6 @@
                                     "key": false,
                                     "alternative": "Firebird"
                                 },
-                                {
-                                    "key": false,
-                                    "alternative": "The Mozilla Foundation"
-                                }
                             ]
                         },
                         {
