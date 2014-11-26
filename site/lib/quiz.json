@@ -839,6 +839,60 @@
                                     "alternative": "Hacker group in the 90`s"
                                 }
                             ]
+                        },
+                        {
+                            "question": "Which country has the lagest percentage (75%) of internet users?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "Andorra"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "Sweden"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "USA"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What persentage of emails are spam?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "60%"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "75%"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "90%"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "When was the first ad banner launched?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "1992"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "1994"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "2001"
+                                }
+                            ]
                         }
                     ]
                 }
