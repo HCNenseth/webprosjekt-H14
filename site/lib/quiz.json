@@ -894,7 +894,7 @@
                         },
                         {
                             "question": "When was the first ad banner launched?",
-                            "image": "static/img/quiz/qmark.png",
+                            "image": "static/img/quiz/first-ad1.jpg",
                             "alternatives": [
                                 {
                                     "key": false,
