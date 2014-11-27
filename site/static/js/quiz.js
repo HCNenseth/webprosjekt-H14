@@ -62,14 +62,29 @@ var quiz = {
         }
         return list;
     },
+    getCorrectAnswer: function(obj) {
+        var cat = obj[0];
+        var level = obj[1];
+        var question = obj[2];
+        var answer = obj[3];
+        for (var key in lib.categories[cat]) {
+            var question = lib.categories[cat][key][levels][level][question];
+            for (var i = 0; i < question.alternatives.length; i++) {
+                if (question.alternatives[i].key === true) {
+                    return question.alternatives[i].alternative;
+                }
+            }
+        }
+        return false;
+    },
     isCorrect: function(obj) {
         var cat = obj[0];
         var level = obj[1];
         var question = obj[2];
         var answer = obj[3];
         for (var key in lib.categories[cat]) {
-            var questions = lib.categories[cat][key][levels][level][question];
-            return questions.alternatives[answer].key;
+            var question = lib.categories[cat][key][levels][level][question];
+            return question.alternatives[answer].key;
         }
         return false;
     },
@@ -167,16 +182,17 @@ var quiz = {
                 var values = this.parseObj(this.form[i].value);
                 if (values[2] == curID) {
                     if (this.isCorrect(values)) {
-                        this.showCurtain(true);
+                        this.showCurtain(true, values);
                     } else {
-                        this.showCurtain(false);
+                        this.showCurtain(false, values);
                     }
                 }
             }
         }
     },
-    showCurtain: function(bool) {
+    showCurtain: function(bool, values) {
         var banner = document.createElement("h1");
+        var correctAnswer = document.createElement("h2");
 
         /* Show the curtain */
         this.curtain.style.display = "block";
@@ -184,18 +200,26 @@ var quiz = {
         /* Give it color and text */
         if (bool) {
             this.curtain.setAttribute("class", "correct");
-            banner.appendChild(document.createTextNode("Correct!"));
+            banner.innerHTML = "Correct!";
             this.curtain.appendChild(banner);
         } else {
             this.curtain.setAttribute("class", "incorrect");
-            banner.appendChild(document.createTextNode("Incorrect!"));
+            banner.innerHTML = "Incorrect!";
+            correctAnswer.innerHTML = "The correct answer is:<br />" +
+                this.getCorrectAnswer(values);
             this.curtain.appendChild(banner);
+            this.curtain.appendChild(correctAnswer);
         }
 
         /* Append an event listener for removing it */
         this.curtain.addEventListener("click", function() {
             this.style.display = "none";
-            this.removeChild(banner);
+            try {
+                this.removeChild(banner);
+            } catch (NotFoundError) {}
+            try {
+                this.removeChild(correctAnswer);
+            } catch (NotFoundError) {}
         }, false);
     },
     showNextQuestion: function(curID, max) {
