@@ -10,9 +10,8 @@
 
 <body>
 
-  <section data-grid-container>
-
-<nav data-grid="4" data-grid-mobile="4" data-grid-tablet="6" id="naven">
+<section data-grid-container>
+  <nav data-grid="4" data-grid-mobile="4" data-grid-tablet="6" id="naven">
   <ul>
     <li><a href="#1.0" onclick="toggle_visibility('nav-intro');">1 Introduksjon</a>
       <ul id="nav-intro" class="nav-ul">
@@ -55,17 +54,17 @@
 
     <li><a href="#6.0" onclick="toggle_visibility('nav-evaluering');">6 Vedlegg</a></li>
   </ul>
-</nav>
+  </nav>
 
 <div class="content-container">
 
-  <div class="tittel" data-grid="12" data-grid-mobile="4" data-grid-tablet="6">
+  <div data-grid-row class="tittel" data-grid="12" data-grid-mobile="4" data-grid-tablet="6">
     <h1>Sluttrapport for DAFE1200</h1>
     <h2>Gruppe #1 - KITT</h2>
     <h3>Dato: 30.11.2014</h3>
   </div>
 
-    <article data-grid-tablet="6" data-grid="8" data-grid-mobile="4">
+    <article data-grid-row data-grid-tablet="6" data-grid="8" data-grid-mobile="4">
       <div id="prosjektdeltagere">
         <h3>Prosjektdeltagere</h3>
         <ul>
@@ -85,28 +84,30 @@
       <a id="1.0"><h2>Kapittel 1: Introduksjon</h2></a>
       <hr>
       <a id="1.1"><h3>1.1 Prosjektet</h3></a>
-      <p>Vi har laget et nettsted som tar brukeren med på en reise gjennom internettets historie, med fokus på WWW. Nettstedets
-        forside inneholder en vertikal timeline som viser viktige hendelser fra webbens historie.
-       </p>
+      <p>
+        Prosjektoppgaven var å utvikle et nettsted med de vanligste web-teknologiene. Det vil si HTML, CSS og JavaScript.
+        Oppgaven har en del kravspesifikasjoner. En av de er at vi ikke kunne bruke rammeverk som for eksempel JQuery og Laravel.
+        Nettstedet ble utviklet med fokus på universell utforming. Samtidig ble nettsiden utviklet slik at den er responderer godt
+        på tvers av de fleste enheter og skjermstørrelser.
+      </p>
+
+      <p>
+        Prosjektets varighet var seks uker, hvor de to første ukene ble brukt til planlegging. De tre neste ukene ble brukt til utvikling
+        av nettsiden. Den siste uken har vi produsert dokumentasjon og denne sluttrapporten.
+      </p>
+
+      <p>
+        Etter som oppgaven var relativt åpen - med tanke på tema - ble det brukt god tid på å velge tema. Det var viktig for oss å finne
+        et tema som samtlige medlemmer av prosjektet kunne stå inne for. Etter en del diskutering fram og tilbake valgte vi tema og startet
+        arbeidet med å produsere ulike planer for hvordan vi skulle realisere ideen vår.
+      </p>
 
        <p>
-         De første to ukene av prosjektet brukte vi til å utveksle tanker, ideer og inspirasjon.
-         Vi ble raskt enige om hvilket nettsted vi ville utvikle, og hvordan vi skulle realisere denne ideen. <br />
+        Vi har gjennom hele prossessen hatt god kommunikasjon. Dette kombinert med gode planer og faste møter har ført til at vi har
+        unngått store misforståelser og konflikter.
+      </p>
 
-         Deretter produserte vi ulike planer for å øke både arbeidsflyten og dermed produktiviteten.
-         Det første vi ble enige om var hvem som skulle gjøre hva.
-         Så skrev vi ned ulike milepæler, og deadline på disse.
-         Da satt vi igjen med både et ansvarskart, og en milepælsplan som ga et oversiktlig bilde over hvem som hadde ansvar for de ulike milepælene.
-       </p>
-       <p>
-         I prosjektets tredje uke startet utviklingen av nettstedet. Denne biten gikk raskere enn forespeilet på milepælsplanen.
-         Vi tror hovedgrunnen til dette er at vi brukte såppas mye tid på planlegging og kommunikasjon i forkant av utviklingen slik at når den startet var vi 100% enige om hva og hvordan ting skulle bli gjort.
-       </p>
-
-       <p>
-       Nettstedet ble ferdig etter tre uker i utviklingsfasen.
-       </p>
-       <hr>
+      <hr>
 
        <a id="1.2"><h3>1.2 Referanser</h3></a>
       <table>
@@ -121,10 +122,10 @@
            <td>HTML & CSS: The Complete Reference</td><td>Thomas A. Powell</td><td>Mc Graw Hill</td><td>2010</td>
          </tr>
          <tr>
-           <td colspan="2"><a href="http://alistapart.com/article/responsive-web-design">Responsive Web Design</td><td>2010</td>
+           <td colspan="3"><a href="http://alistapart.com/article/responsive-web-design">Responsive Web Design</td><td>2010</td>
          </tr>
          <tr>
-           <td colspan="2"><a href="http://www.w3.org/2005/01/timelines/timeline-2500x998.png">WWW tidslinje</a></td><td>2014</td>
+           <td colspan="3"><a href="http://www.w3.org/2005/01/timelines/timeline-2500x998.png">WWW tidslinje</a></td><td>2014</td>
          </tr>
        </table>
        <hr>
