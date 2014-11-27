@@ -30,7 +30,6 @@ img {
 }
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
-  color: black;
 }
 
 nav a:link
@@ -75,6 +74,10 @@ p {
 
 .tittel ul li {
   list-style-type: none;
+}
+
+.tittel h2, .tittel h3 {
+  background: white;
 }
 
 #prosjektdeltagere ul {
