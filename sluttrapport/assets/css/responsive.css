@@ -193,11 +193,17 @@ nav {
     color: white;
   }
 
+  p {
+    margin-top: ;
+  }
+
   .chapter {
     background: #F1601D;
     width: 60%;
     height: 100px;
     line-height: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 
   .subChapter {
@@ -205,6 +211,8 @@ nav {
     width: 30%;
     height: 60px;
     line-height: 60px;
+    margin-bottom: 50px;
+    margin-top: 50px;
   }
 
 }
