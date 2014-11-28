@@ -1,7 +1,12 @@
+body {
+  /*background: #cee9ea; */
+  /*background: url("../img/seamless.png"); */
+  line-height: 1.75em;
+}
 
 nav
 {
-  background-color: ;
+
 }
 nav ul
 {
@@ -10,10 +15,8 @@ nav ul
 
 nav a {
   font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
+  font-size: 1.1em;
+  padding: 5px 10px;
   line-height: 20px;
   text-decoration: none;
 }
@@ -73,6 +76,10 @@ p {
   list-style-type: none;
 }
 
+.tittel h2, .tittel h3 {
+  background: white;
+}
+
 #prosjektdeltagere ul {
   margin: 0;
   padding: 0;
@@ -90,4 +97,9 @@ table {
 table th {
   text-align: left;
   border-bottom: 1px solid black;
+}
+
+h1, h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
