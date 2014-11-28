@@ -1,10 +1,11 @@
 /**
- * Style file #1
+ * Style file #2;
  */
 
 body {
     color: #7f8c97;
-    background: url("../img/bg.png");
+    background: #cee9ea;
+    background: url("../img/seamless.png");
 }
 
 a {
@@ -12,10 +13,7 @@ a {
 }
 
 nav {
-    border-bottom: 2px solid gray;
-    background: #CACACA;
-    box-shadow: 0px 5px 10px #888888;
-    border-bottom: 2px solid gray;
+    background: #777;
 }
 
 nav a {
@@ -23,26 +21,26 @@ nav a {
 }
 
 header {
-    background: #B2D1E5;
-    border-bottom: 4px solid #24C0EB;
-    box-shadow: 0px 5px 5px #CACACA;
+    background: #333;
+    border-bottom: 4px solid #666;
+    box-shadow: 0px 5px 5px #d3d3d3;
 }
 
 header h1 {
     color: #fff;
-    text-shadow: 4px 4px #6FB7E9;
+    text-shadow: 4px 4px #dedcdc;
 }
 
 #timeline::before {
-    background: #d7e4ed;
+    background: #adacac;
 }
 
 .timeline-img {
-    box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 5px #dedcdc, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .timeline-img:hover {
-    box-shadow: 0 0 0 6px gray, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 6px 0 8px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 6px orange, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 6px 0 8px rgba(0, 0, 0, 0.05);
 }
 
 .timeline-content {
@@ -72,10 +70,14 @@ header h1 {
 }
 
 footer {
-    background: #B2D1E5;
-    border-top: 4px solid #24C0EB;
+    background: #333;
+    border-top: 4px solid #adacac;
 }
 
 footer p {
-    color: white;
+    color: #fefefe;
+}
+
+footer ul {
+    color: #fefefe;
 }
