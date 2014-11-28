@@ -1,9 +1,9 @@
 Innen 2014-11-21 (Fredag)
 =========================
 * Sluttrapport - Hans Petter.
-* Innhold Timeline - Torbjørn.
-* Innhold Quiz - Hans Christian m.m (gjennom *.txt filer)
-* Footer (innhold) - Hans Christian.
+* ~~Innhold Timeline - Torbjørn.~~
+* ~~Innhold Quiz - Hans Christian m.m (gjennom *.txt filer)~~
+* ~~Footer (innhold) - Hans Christian.~~
 * ~~Header, funksjonalitet - Alexander.~~
 * ~~Ikoner og kategorifarger - Torbjørn.~~
 * ~~W3C, CSS, JSLint, og Tingtun validering - Alexander.~~
@@ -15,8 +15,7 @@ Innen 2014-11-26 (Onsdag)
 
 Småting
 =======
-* ~~Farger på knappene~~
-* Footer
 * Sluttrapport ferdig
-* Content ferdig og sett gjennom
-* Quiz ferdig og sett gjennom
+* ~~Farger på knappene~~
+* ~~Content ferdig og sett gjennom~~
+* ~~Quiz ferdig og sett gjennom~~
