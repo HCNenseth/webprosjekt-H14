@@ -44,16 +44,22 @@ Timeliste for KITT #1 - Webprosjekt
     * 2014-10-26 - - 5 timer.
 --
 * Torbjørn M. Brandrud
-    * 2014-10-20 - - 7 timer.
-    * 2014-10-22 - - 5 timer.
-    * 2014-10-27 - - 7 timer.
-    * 2014-10-29 - - 5 timer.
-    * 2014-11-03 - - 7 timer.
-    * 2014-10-05 - - 5 timer.
-    * 2014-10-10 - - 7 timer.
-    * 2014-10-12 - - 5 timer.
-    * 2014-10-17 - - 7 timer.
-    * 2014-10-19 - - 5 timer.
-    * 2014-10-24 - - 7 timer.
-    * 2014-10-26 - - 5 timer.
+    * 2014-10-20 - Konseptarbeid og idemyldring - 7 timer.
+    * 2014-10-22 - Konseptarbeid og idemyldring - 5 timer.
+    * 2014-10-27 - Konseptarbeid og idemyldring- 6 timer.
+    * 2014-10-29 - Basisstruktur (koding, HTML) - 5 timer.
+    * 2014-11-03 - Basisstruktur (koding, HTML) - 7 timer.
+    * 2014-10-05 - Syk - 0 timer.
+    * 2014-10-10 - Innhold - 7 timer.
+    * 2014-10-12 - Quiz - 5 timer.
+    * 2014-10-14 - Quiz og Innhold - 5 timer.
+    * 2014-10-17 - Innhold - 6 timer.
+    * 2014-10-17 - Innhold - 1 timer.
+    * 2014-10-19 - Basisstruktur og innhold - 4 timer.
+    * 2014-10-21 - Innhold - 6 timer.
+    * 2014-10-22 - Quiz og innhold - 1 timer.
+    * 2014-10-24 - Quiz - 7 timer.
+    * 2014-10-26 - Innhold og feiltesting - 5 timer.
+    * 2014-10-27 - Innhold - 2 timer.
+    * 2014-10-28 - Quiz og innhold- 6 timer.
 --
