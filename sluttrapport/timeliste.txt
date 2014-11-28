@@ -14,6 +14,7 @@ Timeliste for KITT #1 - Webprosjekt
     * 2014-10-19 - quiz-spørsmål - 5 timer.
     * 2014-10-24 - quiz-spørsmål - 7 timer.
     * 2014-10-26 - quiz-spørsmål - 5 timer.
+    * Sporadisk jobbing 4-5 timer i uka på kveldstid
 --
 * Hans Petter Osvold
     * 2014-10-20 - - 7 timer.
