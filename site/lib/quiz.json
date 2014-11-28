@@ -89,11 +89,11 @@
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
-                                    "key": false,
+                                    "key": true,
                                     "alternative": "Tim Berners-Lee"
                                 },
                                 {
-                                    "key": true,
+                                    "key": false,
                                     "alternative": "Steven Hawking"
                                 },
                                 {
@@ -120,23 +120,143 @@
                                 }
                             ]
                         }
-                    ],
-            "hard": [
                         {
-                            "question": "Test Question",
+                            "question": "Why did the USA create ARPA?",
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {
                                     "key": false,
-                                    "alternative": "..."
+                                    "alternative": "Because they saw the potential of creating a WWW"
                                 },
                                 {
                                     "key": true,
-                                    "alternative": "..."
+                                    "alternative": "Because they were in competition with the Soviet Union"
                                 },
                                 {
                                     "key": false,
-                                    "alternative": "..."
+                                    "alternative": "Because of technological breakthroughs"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Because they needed to keep the Web under surveillance"
+                                }
+                            ]
+                        }
+                    ],
+            "hard": [
+                        {
+                            "question": "Who demonstrated ARPAnet to the public?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Robert Kahn"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Paul Baran"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Ray Tomlinson"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "Who sent the first spam?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": true,
+                                    "alternative": "Gary Thuerk"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Paul Baran"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "Lawrence Landweber"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "What does WC3 stand for?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "World Wide Web Criteria"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "World Wide Web Consortium"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "World Wide Web Controller"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "How fast was the first "Wi-Fi"?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "6Mbit/s"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "2Mbit/s"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "0.5Mbit/s"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "When did the development of the TCP/IP protocol begin?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "1975"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "1973"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1971"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1977"
+                                }
+                            ]
+                        },
+                        {
+                            "question": "When was ARPA formed?",
+                            "image": "static/img/quiz/qmark.png",
+                            "alternatives": [
+                                {
+                                    "key": false,
+                                    "alternative": "1959"
+                                },
+                                {
+                                    "key": true,
+                                    "alternative": "1958"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1957"
+                                },
+                                {
+                                    "key": false,
+                                    "alternative": "1956"
                                 }
                             ]
                         }

@@ -1,0 +1,3 @@
+* Site: http://student.cs.hioa.no/~s114143/dafe1200/site/
+* Forprosjekt: http://student.cs.hioa.no/~s114143/dafe1200/forprosjekt/forprosjekt.html
+* Sluttrapport: http://student.cs.hioa.no/~s114143/dafe1200/sluttrapport/sluttrapport.html

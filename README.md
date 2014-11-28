@@ -12,3 +12,7 @@ Live lenker
 * [Hovedsiden](http://czech.plastboks.net/webprosjekt)
 * [Forprosjekt](http://czech.plastboks.net/forprosjekt)
 * [Sluttrapport](http://czech.plastboks.net/sluttrapport)
+
+Publish lenke
+=============
+Legg [følgende fil](prosjektoppgave_webprosjekt2014.txt) i hjemmekatalogen på student.cs området.
