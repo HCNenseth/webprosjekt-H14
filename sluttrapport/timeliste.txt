@@ -20,15 +20,15 @@ Timeliste for KITT #1 - Webprosjekt
     * 2014-10-20 - Diskuterte utforming av siden - 7 timer.
     * 2014-10-22 - Diskuterte utforming av siden - 5 timer.
     * 2014-10-27 - Diskuterte utforming av siden - 7 timer.
-    * 2014-10-29 - Diskuterte utforming av siden - 5 timer.
-    * 2014-11-03 - - 7 timer.
-    * 2014-10-05 - - 5 timer.
-    * 2014-10-10 - - 7 timer.
-    * 2014-10-12 - - 5 timer.
-    * 2014-10-17 - - 7 timer.
-    * 2014-10-19 - - 5 timer.
-    * 2014-10-24 - - 7 timer.
-    * 2014-10-26 - - 5 timer.
+    * 2014-10-29 - HTML arbeid - 5 timer.
+    * 2014-11-03 - HTML arbeid - 7 timer.
+    * 2014-10-05 - Innholdsarbeid - 5 timer.
+    * 2014-10-10 - Innholdsarbeid- 7 timer.
+    * 2014-10-12 - quiz arbeid- 5 timer.
+    * 2014-10-17 - syk - 0 timer.
+    * 2014-10-19 - syk - 0 timer.
+    * 2014-10-24 - sluttrapport - 7 timer.
+    * 2014-10-26 - sluttrapport - 5 timer.
 --
 * Marius Alexander Skjolden
     * 2014-10-20 - Diskuterte utforming av siden - 7 timer.
