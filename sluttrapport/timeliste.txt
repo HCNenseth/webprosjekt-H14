@@ -2,18 +2,18 @@ Timeliste for KITT #1 - Webprosjekt
 ====================================
 
 * Hans Christian Nenseth
-    * 2014-10-20 - - 7 timer.
-    * 2014-10-22 - - 5 timer.
-    * 2014-10-27 - - 7 timer.
-    * 2014-10-29 - - 5 timer.
-    * 2014-11-03 - - 7 timer.
-    * 2014-10-05 - - 5 timer.
-    * 2014-10-10 - - 7 timer.
-    * 2014-10-12 - - 5 timer.
-    * 2014-10-17 - - 7 timer.
-    * 2014-10-19 - - 5 timer.
-    * 2014-10-24 - - 7 timer.
-    * 2014-10-26 - - 5 timer.
+    * 2014-10-20 - Diskuterte utforming av siden - 7 timer.
+    * 2014-10-22 - Diskuterte utforming av siden - 5 timer.
+    * 2014-10-27 - Diskuterte utforming av siden - 7 timer.
+    * 2014-10-29 - Diskuterte utforming av siden - 5 timer.
+    * 2014-11-03 - index og quiz-spørsmål - 7 timer.
+    * 2014-10-05 - generell html, css - 5 timer.
+    * 2014-10-10 - syk - 0 timer.
+    * 2014-10-12 - syk - 0 timer.
+    * 2014-10-17 - feilretting - 7 timer.
+    * 2014-10-19 - quiz-spørsmål - 5 timer.
+    * 2014-10-24 - quiz-spørsmål - 7 timer.
+    * 2014-10-26 - quiz-spørsmål - 5 timer.
 --
 * Hans Petter Osvold
     * 2014-10-20 - - 7 timer.
