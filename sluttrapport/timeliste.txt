@@ -2,18 +2,19 @@ Timeliste for KITT #1 - Webprosjekt
 ====================================
 
 * Hans Christian Nenseth
-    * 2014-10-20 - - 7 timer.
-    * 2014-10-22 - - 5 timer.
-    * 2014-10-27 - - 7 timer.
-    * 2014-10-29 - - 5 timer.
-    * 2014-11-03 - - 7 timer.
-    * 2014-10-05 - - 5 timer.
-    * 2014-10-10 - - 7 timer.
-    * 2014-10-12 - - 5 timer.
-    * 2014-10-17 - - 7 timer.
-    * 2014-10-19 - - 5 timer.
-    * 2014-10-24 - - 7 timer.
-    * 2014-10-26 - - 5 timer.
+    * 2014-10-20 - Diskuterte utforming av siden - 7 timer.
+    * 2014-10-22 - Diskuterte utforming av siden - 5 timer.
+    * 2014-10-27 - Diskuterte utforming av siden - 7 timer.
+    * 2014-10-29 - Diskuterte utforming av siden - 5 timer.
+    * 2014-11-03 - index og quiz-spørsmål - 7 timer.
+    * 2014-10-05 - generell html, css - 5 timer.
+    * 2014-10-10 - syk - 0 timer.
+    * 2014-10-12 - syk - 0 timer.
+    * 2014-10-17 - feilretting - 7 timer.
+    * 2014-10-19 - quiz-spørsmål - 5 timer.
+    * 2014-10-24 - quiz-spørsmål - 7 timer.
+    * 2014-10-26 - quiz-spørsmål - 5 timer.
+    * Sporadisk jobbing 4-5 timer i uka på kveldstid
 --
 * Hans Petter Osvold
     * 2014-10-20 - - 7 timer.
@@ -32,34 +33,34 @@ Timeliste for KITT #1 - Webprosjekt
 * Marius Alexander Skjolden
     * 2014-10-20 - Oppsett av basisstruktur - 7 timer.
     * 2014-10-22 - Quiz arbeid - 5 timer.
-    * 2014-10-27 - Forprosjekt rapport - 7 timer.
+    * 2014-10-27 - Quiz arbeid - 7 timer.
     * 2014-10-29 - HTML arbeid - 5 timer.
     * 2014-11-03 - HTML arbeid - 7 timer.
-    * 2014-10-05 - Innholds arbeid - 5 timer.
-    * 2014-10-10 - Innholds arbeid- 7 timer.
-    * 2014-10-12 - Quiz arbeid - 5 timer.
-    * 2014-10-17 - Quiz arbeid - 7 timer.
-    * 2014-10-19 - Innholds arbeid - 5 timer.
-    * 2014-10-24 - Sluttrapport - 7 timer.
-    * 2014-10-26 - Sluttrapport - 5 timer.
---
-* Torbjørn M. Brandrud
-    * 2014-10-20 - - 7 timer.
-    * 2014-10-22 - - 5 timer.
-    * 2014-10-27 - - 6 timer.
-    * 2014-10-29 - - 5 timer.
-    * 2014-11-03 - - 7 timer.
-    * 2014-10-05 - - 0 timer.
+    * 2014-10-05 - - 5 timer.
     * 2014-10-10 - - 7 timer.
     * 2014-10-12 - - 5 timer.
-    * 2014-10-14 - - 5 timer.
-    * 2014-10-17 - - 6 timer.
-    * 2014-10-17 - - 1 timer.
-    * 2014-10-19 - - 4 timer.
-    * 2014-10-21 - - 6 timer.
-    * 2014-10-22 - - 1 timer.
+    * 2014-10-17 - - 7 timer.
+    * 2014-10-19 - - 5 timer.
     * 2014-10-24 - - 7 timer.
     * 2014-10-26 - - 5 timer.
-    * 2014-10-27 - - 2 timer.
-    * 2014-10-28 - - 6 timer.
+--
+* Torbjørn M. Brandrud
+    * 2014-10-20 - Konseptarbeid og idemyldring - 7 timer.
+    * 2014-10-22 - Konseptarbeid og idemyldring - 5 timer.
+    * 2014-10-27 - Konseptarbeid og idemyldring- 6 timer.
+    * 2014-10-29 - Basisstruktur (koding, HTML) - 5 timer.
+    * 2014-11-03 - Basisstruktur (koding, HTML) - 7 timer.
+    * 2014-10-05 - Syk - 0 timer.
+    * 2014-10-10 - Innhold - 7 timer.
+    * 2014-10-12 - Quiz - 5 timer.
+    * 2014-10-14 - Quiz og Innhold - 5 timer.
+    * 2014-10-17 - Innhold - 6 timer.
+    * 2014-10-17 - Innhold - 1 timer.
+    * 2014-10-19 - Basisstruktur og innhold - 4 timer.
+    * 2014-10-21 - Innhold - 6 timer.
+    * 2014-10-22 - Quiz og innhold - 1 timer.
+    * 2014-10-24 - Quiz - 7 timer.
+    * 2014-10-26 - Innhold og feiltesting - 5 timer.
+    * 2014-10-27 - Innhold - 2 timer.
+    * 2014-10-28 - Quiz og innhold- 6 timer.
 --
