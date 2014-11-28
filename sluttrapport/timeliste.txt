@@ -17,10 +17,10 @@ Timeliste for KITT #1 - Webprosjekt
     * Sporadisk jobbing 4-5 timer i uka på kveldstid
 --
 * Hans Petter Osvold
-    * 2014-10-20 - - 7 timer.
-    * 2014-10-22 - - 5 timer.
-    * 2014-10-27 - - 7 timer.
-    * 2014-10-29 - - 5 timer.
+    * 2014-10-20 - Diskuterte utforming av siden - 7 timer.
+    * 2014-10-22 - Diskuterte utforming av siden - 5 timer.
+    * 2014-10-27 - Diskuterte utforming av siden - 7 timer.
+    * 2014-10-29 - Diskuterte utforming av siden - 5 timer.
     * 2014-11-03 - - 7 timer.
     * 2014-10-05 - - 5 timer.
     * 2014-10-10 - - 7 timer.
