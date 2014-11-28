@@ -199,7 +199,7 @@
                             ]
                         },
                         {
-                            "question": "How fast was the first "Wi-Fi"?",
+                            "question": "How fast was the first `Wi-Fi`?",
                             "image": "static/img/quiz/qmark.png",
                             "alternatives": [
                                 {

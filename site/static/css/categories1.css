@@ -3,14 +3,20 @@
  */
 
 .timeline-img.blue {
-    background: #11E3FF;
+    background: #333;
 }
 .timeline-img.green {
-    background: #43FE00;
+    background: #333;
 }
 .timeline-img.red {
-    background: #FE2777;
+    background: #333;
 }
 .timeline-img.yellow {
-    background: #FFBB07;
+    background: #333;
+}
+.timeline-img.white {
+    background: #333;
+}
+.timeline-img.black {
+    background: #333;
 }
