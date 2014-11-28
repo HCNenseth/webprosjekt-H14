@@ -196,6 +196,7 @@ nav {
 
 
   .chapter {
+    padding-left: 10px;
     background: #F1601D;
     width: 60%;
     height: 100px;
@@ -205,6 +206,7 @@ nav {
   }
 
   .subChapter {
+    padding-left: 10px;
     background: #999999;
     width: 30%;
     height: 60px;
